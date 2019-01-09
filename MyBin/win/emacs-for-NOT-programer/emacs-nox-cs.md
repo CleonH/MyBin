@@ -1,5 +1,5 @@
 ### [tutorial]
-
+http://ergoemacs.org/emacs/emacs_make_modern.html
 https://zilongshanren.com/LearnEmacs/
 
 ### install windows-emacs
@@ -56,4 +56,5 @@ C:\Program Files (x86)\Git\bin
 
 
 ### *spacemacs for programmer*
+[tutorial] https://zilongshanren.com/LearnEmacs/
 [spacemacs] https://emacs-china.org/t/windows-emacs/7907/37
