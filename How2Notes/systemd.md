@@ -9,9 +9,14 @@ pacman -Ss cronie
 crontab folder 
 ```
 (root) /etc/crontab
-(user) /var/...     ## modify by crontab -e 
+(user) /var/spool/cron/$USERNAME    ## modify by crontab -e 
 (cronie)/etc/cron.d
 (add tmp)/etc/cron.d/tmpcronfile
+```
+crontab -e SAMPLE
+```
+* * * * * touch /tmp/crontab-workingtest.log
+@reboot date >> /tmp/crontab-reboot-time.log
 ```
 
 
