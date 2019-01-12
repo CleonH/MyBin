@@ -1,7 +1,7 @@
 ## VNC servers
 
 ### realvnc-server license key
-77NVU-D9G5T-79ESS-V9Y6X-JMVGA
+NEEDED
 
 ### open-source server
 
