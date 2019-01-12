@@ -27,11 +27,11 @@ sudo systemctl stop SERVICE@USER
 ## X-server
 
 ### xprofile / xinit / xsession /  
-### input fcitx/ibus
+```### input fcitx/ibus
 export XMODIFIERS=@im=fcitx
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
-
+```
 
 ### Xmodmap / xmodmaprc / 
 - xfce-superkey
