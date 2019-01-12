@@ -1,11 +1,24 @@
+## TWISTED 
+
+Event-driven networking engine written in Python. 
+
+https://www.twistedmatrix.com    
+https://blog.csdn.net/hanhuili/article/details/9389433
+- twisted.web: HTTP clients and servers, HTML templating, and a WSGI server
+- twisted.conch: SSHv2 and Telnet clients and servers and terminal emulators
+- twisted.words: Clients and servers for IRC, XMPP, and other IM protocols
+- twisted.mail: IMAPv4, POP3, SMTP clients and servers
+- twisted.positioning: Tools for communicating with NMEA-compatible GPS receivers
+- twisted.names: DNS client and tools for making your own DNS servers
+- twisted.trial: A unit testing framework that integrates well with Twisted-based code
+
 ## python  HTTP Server
 
 python2 -m SimpleHTTPServer 1234
 python3 -m http.server 1234
 
-## Tmp FTP server
+## python FTP server
 
-- twistd -n ftp
 - python -m pyftpdlib
 
 
