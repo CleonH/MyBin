@@ -1,3 +1,8 @@
+## IOS virtual Second Monitor
+iDisplay
+duet Display
+
+
 ## VNC servers
 
 ### realvnc-server license key
@@ -9,3 +14,9 @@ NEEDED
 http://uvnc.com/
 - tigerVNC
 https://tigervnc.org/
+
+
+
+
+
+
