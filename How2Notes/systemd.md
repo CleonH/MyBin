@@ -1,7 +1,8 @@
 ## boot
 
 ### systemd
-- https://linux.cn/article-10301-1.html?f=http://blogread.cn/
+- https://linux.cn/article-10301-1.html
+- https://linuxtoy.org/archives/systemd-journal.html
 
 ### rc.local / crontab / @reboot
 arch-wiki crontab
