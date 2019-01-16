@@ -1,3 +1,6 @@
+https://wiki.archlinux.org/index.php/GRUB
+
+```
 $ efibootmgr   
 BootCurrent: 0000
 Timeout: 1 seconds
@@ -19,3 +22,4 @@ sudo su
 $ (sudo)efibootmgr --create --disk /dev/mmcblk1p1 --loader /EFI/refind/refind_ia32.efi --label "rEFInd-bootloader"
 $ (sudo)efibootmgr --create --disk /dev/mmcblk1p1 --loader /EFI/manjaro/grub2mjr.efi --label "linux-arch-manjaro-grub32"
 
+```
