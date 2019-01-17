@@ -9,6 +9,7 @@
 
 ### Linux AutoKey
 
+- *https://github.com/alols/xcape*
 - https://github.com/madslundt/keybindings
 - https://github.com/Chester-zZz/linux-capslock
 
