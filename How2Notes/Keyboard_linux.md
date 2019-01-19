@@ -22,7 +22,7 @@ xfce4-terminal --drop-down             |  (Super+R)
 
 ```
 - install autokey  (autokey-setting ~/.config/autokey)
-- echo "setxkbmap -option caps:hyper" >> ~/.xinitrc
+- echo "setxkbmap -option caps:hyper" >> ~/.xprofile
 - config - remap <CapsLock>  :  "keyb oard.send_key("<capslock>")"    
 - config - sample
  https://github.com/Chester-zZz/linux-capslock
