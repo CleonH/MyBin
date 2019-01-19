@@ -9,11 +9,33 @@
 
 ### Linux AutoKey
 
-- *https://github.com/alols/xcape*
 - https://github.com/madslundt/keybindings
+
+xfce keyboard remap
+```
+- xfce4-keyboard-settings  (openbox-setting)
+- install - xfce-superkey  - https://github.com/JixunMoe/xfce-superkey
+
+
+- (keyboardmap)~/.Xmodmap   
+- *switch caps and ctrl*
+
+```
+
+Autokey
+```
+- install - autokey  (autokey-setting ~/.config/autokey)
 - https://github.com/Chester-zZz/linux-capslock
 
-- https://github.com/JixunMoe/xfce-superkey
+```
+others
+```
+- *https://github.com/alols/xcape*
 - https://github.com/hexvalid/Linux-CapsLock-Delay-Fixer
 - double caps -- add sudo 
-- switch caps and ctrl
+```
+
+### **Application specified shortcuts**
+- Chrome/Firefox Vimuim
+- MSVS-Code/Sublime VimMode
+- Emacs/SpaceEmacs ChaosMode
