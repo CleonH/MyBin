@@ -1,7 +1,7 @@
 -  driver
-```
-keyboard type; touchpad dirver ; 
-```
+
+keyboard type config; touchpad dirver ; etc
+
 
 - $ xfwm4-setting  (openbox-setting)
 ```
@@ -32,8 +32,19 @@ xfce4-terminal --drop-down             |  (Super+R)
 
 - Libinput - TouchPad Gestures
 
- [https://github.com/madslundt/keybindings]
+[https://github.com/madslundt/keybindings]
 
+Disable Touchpad
+```
+#!/bin/bash
+if xinput list-props 12 | grep "Device Enabled (146):.*1" >/dev/null
+then
+  xinput disable 12
+  notify-send -u low -i mouse "Trackpad disabled"
+else
+  xinput enable 12
+  notify-send -u low -i mouse "Trackpad enabled"
+```
 
 
 - others
