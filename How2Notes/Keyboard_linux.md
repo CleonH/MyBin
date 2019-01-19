@@ -27,14 +27,17 @@ xfce4-terminal --drop-down             |  (Super+R)
 - config - sample
  https://github.com/Chester-zZz/linux-capslock
  https://github.com/Vonng/Capslock
+ 
+ xautomation: http://hoopajoo.net/projects/xautomation.html
 
 ```
 
-- Libinput - TouchPad Gestures
 
-[https://github.com/madslundt/keybindings]
+- TouchPad
 
-Disable Touchpad
+ Libinput - TouchPad Gestures  https://github.com/madslundt/keybindings
+
+ Disable-Touchpad.sh  (xfce4-keyboard-settings / xfwm4-settings / autokey )
 ```
 #!/bin/bash
 if xinput list-props 12 | grep "Device Enabled (146):.*1" >/dev/null
