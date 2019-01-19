@@ -1,0 +1,16 @@
+
+
+systemd
+crontab
+
+Debian 
+
+cp /etc/xdg/lxsession  .. autostart ~/.config/....
+
+
+
+Arch
+
+~/.config/autostart/XXX.desktop
+~/.xprofile
+
