@@ -2,6 +2,7 @@
 
  - https://github.com/Vonng/Capslock
  - https://github.com/myt00seven/CapslockAsSuperKeyForPC
+ - *https://github.com/szzhiyang/PerfectWindows/tree/master/Power-Keys*
  
 ### MacOS Karabiner-Elements
 
