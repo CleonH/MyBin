@@ -64,3 +64,13 @@ else
 - Chrome/Firefox Vimuim
 - MSVS-Code/Sublime VimMode
 - Emacs/SpaceEmacs ChaosMode
+
+
+### hotkey style
+Emacs - C-X C-X
+GoldenDict - C-X-X
+*Screen* - C-A,C-D
+*Tmux* - C-B,D
+VIM - ESC/io/:set parameter
+
+
