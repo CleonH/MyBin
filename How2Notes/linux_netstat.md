@@ -1,30 +1,32 @@
 
 ### watch port
-
+```
 sudo netstat -apn |grep dnsmasq
-
+```
 
 ### net speed
-
-of device/interface     $ iftop/jnettop/nload/ntop
-of application/process  $ nethogs
-
+```
+#speed of device/interface     
+$ iftop/jnettop/nload/ntop
+#speed of application/process  
+$ nethogs
+```
 
 ### dns-server  /etc/resolv.conf
 
-/etc/resolvconf.conf  
+- /etc/resolvconf.conf  
 ```
 ## self-defind dns-server
 $ resolvconf -u
 ```
 
-wpa_wireless 
+- wpa_wireless setting
 ```
 DHCP-auto
 DHCP-auto-IPonly
 ```
 
-dnsmasq
+- /etc/dnsmasq.conf
 ```
 ## using local stubby DNS-over-TLS
 no-resolv
