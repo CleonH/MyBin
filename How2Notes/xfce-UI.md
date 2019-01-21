@@ -1,7 +1,7 @@
 
-## LXTERMINAL + +AutoKey + CEREBRO
+## LXTERMINAL + tldrgo
 
-shortname/alias
+shortname/alias/tldrgo
 
 - terminal
 $ tilda ## -F1
@@ -20,6 +20,10 @@ $ xdg-open $(pwd) # ln -s $(which xdg-open) /usr/local/bin/xopen
 $ /usr/bin/subl -> /usr/bin/sublime_text_3_imfix_fcitx
 
 
+
+## AutoKey + CEREBRO
+
+keyboard
 
 ### GUI
 
