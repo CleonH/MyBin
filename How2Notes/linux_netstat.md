@@ -7,9 +7,13 @@ sudo netstat -apn |grep dnsmasq
 ### net speed
 ```
 #speed of device/interface     
-$ iftop/jnettop/nload/ntop
+$ nload
 #speed of application/process  
 $ nethogs
+#speed of connetion
+$ iftop/
+# others
+# jnettop/ntop
 ```
 
 ### dns-server  /etc/resolv.conf
