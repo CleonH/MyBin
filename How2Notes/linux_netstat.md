@@ -4,7 +4,7 @@
 sudo netstat -apn |grep dnsmasq
 ```
 
-### net speed
+### net speed monitor
 ```
 #speed of device/interface     
 $ nload
@@ -14,6 +14,9 @@ $ nethogs
 $ iftop/
 # others
 # jnettop/ntop
+# GUI
+netactview
+etherape
 ```
 
 ### dns-server  /etc/resolv.conf
