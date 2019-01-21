@@ -31,7 +31,8 @@ xfce4-terminal --drop-down             |  (Super+R)
  xautomation: http://hoopajoo.net/projects/xautomation.html
 
 ```
-
+- **CEREBRO**
+     https://github.com/KELiON/cerebro/
 
 - TouchPad
 
