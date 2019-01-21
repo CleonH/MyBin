@@ -48,3 +48,6 @@ for task reminder --> xpad
 
 for tmp textcontent -->  xfce4-notes + clipman
 ```
+
+## panel setting
+
