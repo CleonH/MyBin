@@ -21,12 +21,9 @@ $ /usr/bin/subl -> /usr/bin/sublime_text_3_imfix_fcitx
 
 
 
-## AutoKey + CEREBRO
+## AutoKey + CEREBRO/Ulauncher
 
 keyboard
-
-
-## Ulauncher
 
 https://github.com/leinardi/ulauncher-systemctl/
 
