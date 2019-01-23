@@ -26,6 +26,7 @@ $ /usr/bin/subl -> /usr/bin/sublime_text_3_imfix_fcitx
 keyboard
 
 https://github.com/leinardi/ulauncher-systemctl/
+https://github.com/seqizz/ulauncher-tmux-attach
 
 ### GUI
 
