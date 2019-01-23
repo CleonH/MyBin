@@ -25,6 +25,11 @@ $ /usr/bin/subl -> /usr/bin/sublime_text_3_imfix_fcitx
 
 keyboard
 
+
+## Ulauncher
+
+https://github.com/leinardi/ulauncher-systemctl/
+
 ### GUI
 
 FileManager
@@ -42,6 +47,8 @@ https://github.com/barrydegraaff/thunar
 https://github.com/rochacbruno/thunar-actions
 ```
 
+
+
 stichynotes 
 ```
 for task reminder --> xpad
@@ -53,6 +60,3 @@ for tmp textcontent -->  xfce4-notes + clipman
 
 
 
-### Ulauncher
-
-https://github.com/leinardi/ulauncher-systemctl/
