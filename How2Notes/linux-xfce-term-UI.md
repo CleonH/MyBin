@@ -51,3 +51,8 @@ for tmp textcontent -->  xfce4-notes + clipman
 
 ## panel setting
 
+
+
+### Ulauncher
+
+https://github.com/leinardi/ulauncher-systemctl/
