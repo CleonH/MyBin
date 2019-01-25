@@ -57,7 +57,15 @@ for task reminder --> xpad
 for tmp textcontent -->  xfce4-notes + clipman
 ```
 
-## panel setting
+## xfce4 panel setting
 
+- openbox
+```
+xfwm4-tweaks-settings
 
-
+```
+- keyboard hotkey
+```
+xfwm4-settings
+xfce4-keyboard-settings
+```
