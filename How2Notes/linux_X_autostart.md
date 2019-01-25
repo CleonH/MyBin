@@ -1,5 +1,9 @@
 
+### 
+https://wiki.archlinux.org/index.php/Xfce#Autostart
 
+
+###
 systemd
 crontab
 
