@@ -4,4 +4,70 @@
 - ulaucher - only working with ibux
 - sublime  - ibus/fcitx fixed version
 
+```
+ 
 
+我们配置输入法时,都是习惯性的在输入法启动前导出环境变量:
+
+ 
+
+export XMODIFIERS=@im=SCIM
+
+export GTK_IM_MODULE=SCIM
+
+ 
+
+他们有何用意呢??
+
+ 
+
+我们常用的输入法有以下几种:
+
+ 
+
+1. XIM (X输入法, 所有 X 图形程序都是可用的)
+
+2. GTK immodule（GTK输入模块, 专给 GTK+2/Gnome 程序用的，GTK+ 1 不适用）
+
+3. QT immodule（QT输入模块, 专给 QT/KDE 程序用的）
+
+ 
+
+XMODIFIERS实际上是指定 X图形程序的输入法.
+
+ 
+
+GTK_IM_MODULE 则是指定GTK+2的程序默认所用的输入法模块.
+
+ 
+
+有关GTK+2 所有输入法模块都安装在 /usr/lib/gtk-2.0/2.4.0/immodules/ 目录下.
+
+ 
+
+关于他们之间的关系,我们有一个比较直观的经验就是, 当我们因为设置XMODIFIERS失误(比如在有些情况下scim小写),导致X输入法没法使用时,我们在gnome-terminal里单击鼠标右键,移动到 "输入法",再选择 "SCIM Input Method"时,我们在gnome-terminal下却是可以输入中文的. 当然前提是我们已经安装scim-gtk2-immodule包.
+
+ 
+
+一般情况下XMODIFIERS的优先级高于GTK_IM_MODULE ,即当我们同时设定这两个环境变量,在GTK+2的应用程序里优先使用的是XMODIFIERS指定的X输入法.
+
+ 
+
+GTK immodule 比起 XIM 有很多好处：
+
+1. 不受 locale 限制
+
+2. 完全不用设定，随时可用，会自动调用 IM server
+
+3. 可以任意切换各种不同 IM server，随时可改,无需重启X.
+
+4. 真正支援游标跟随.
+
+ 
+
+但是因为 c++ 的兼容性问题使 scim-gtk2-immodule 跟许多程序相冲突,故而在目前,如果我们使用scim的话,还不能流畅享受到GTK 输入模块的种种妙处,只能使用 Scim for XIM.
+
+ 
+
+注：mozilla, firefox, thunderbird 等不是正规的 GTK+ 2，没办法用鼠标动态选择输入法. 如果你仅仅使用GTK immodule的话, 一定要使用GTK_IM_MODULE指定默认的GTK 输入模块。
+```
