@@ -25,4 +25,5 @@ https://pangu8.com/
 -
 
 
-## CEV RSS
+## CVE RSS
+https://threatpost.com/rss-feeds/
