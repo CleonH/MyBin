@@ -28,6 +28,9 @@ keyboard
 https://github.com/leinardi/ulauncher-systemctl/
 https://github.com/seqizz/ulauncher-tmux-attach
 
+ulaucher-tmux
+https://github.com/seqizz/ulauncher-tmux-attach
+
 ### GUI
 
 FileManager
