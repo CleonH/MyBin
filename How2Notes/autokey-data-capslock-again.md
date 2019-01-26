@@ -8,7 +8,7 @@ keyboard.send_key("<Shift>")
 ```
 
 ## xfce4-setting && xfwm-setting 
-display hotkey :  Super+P -> X86Display
-thunar /home   :  Super+E -> Ctrl+Alt+E
+- display hotkey :  Super+P -> X86Display
+- thunar /home   :  Super+E -> Ctrl+Alt+E
 
 ## 
