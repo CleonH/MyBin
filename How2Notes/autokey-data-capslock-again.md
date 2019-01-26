@@ -1,8 +1,9 @@
 # fix confliction of Aotukey and XFCE4
 
 ## AutoKey mysterious 'e' fix
-END-e-fix.py  # map [Super+E] to [shift]
+END-e-fix.py  
 ```
+# map [Super+E] to [shift]
 keyboard.send_key("<Shift>")
 ```
 
