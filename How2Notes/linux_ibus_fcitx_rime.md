@@ -53,12 +53,38 @@ killall ibus-daemon;
 ibus-daemon -d;
 ```
 
-### rime 
+### ibus-rime 
+
+
+- default.custom
+https://gist.githubusercontent.com/lotem/2309739/raw/29d2bda5a017b4c96bda6cb63697d50d450a6417/default.custom.yaml
+```
+patch:
+  menu:
+    page_size: 5                   # 9个候选项
+  schema_list:
+    - schema: double_pinyin_mspy   # 微軟雙拼
+    - schema: luna_pinyin_simp     # 朙月拼音 简化字模式
+    - schema: emoji                # emoji表情
+```
+double_pinyin_mspy.custom.yaml
+```
+patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape      # 默认全角
+      states: [ 半角, 全角 ]
+    - name: simplification  # 默认简体输出
+      reset: 1
+      states: [ 汉字, 漢字]
+  translator:
+    dictionary: luna_pinyin
+    prism: double_pinyin_mspy
+    preedit_format:         # 不展开双拼提示
+
 ```
 
 
-
-
-```
-
-###
+### fcitx-rime
