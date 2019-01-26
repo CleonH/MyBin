@@ -3,10 +3,12 @@
 ## AutoKey mysterious 'e' fix
 END-e-fix.py  
 ```
+## [Hyper+Space]add lanuage switch hotkey in IBUS 
+
 # map [Super+E] to [escape]
 keyboard.send_key("<escape>")
 
-# map [Hyper+I] to (lanuage switcher)
+# reserve [Super+I] to [????]
 ```
 
 ## xfce4-setting && xfwm-setting 
