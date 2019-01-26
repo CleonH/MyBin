@@ -8,7 +8,7 @@ END-e-fix.py
 # map [Super+E] to [escape]
 keyboard.send_key("<escape>")
 
-# reserve [Super+I] to [????]
+# reserve [Super+I] to [GOLDENDIC-HOTKEY]
 ```
 
 ## xfce4-setting && xfwm-setting 
