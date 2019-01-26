@@ -4,6 +4,12 @@
 - ulaucher - only working with ibux
 - sublime  - ibus/fcitx fixed version
 
+### sublime 中文
+输入法框架 - fcitx/ibus/xim 修复版本
+https://aur.archlinux.org/packages/sublime-text-3-imfix/
+中文 - 添加 so文件
+https://github.com/lyfeyaj/sublime-text-imfix
+
 ```
  
 
