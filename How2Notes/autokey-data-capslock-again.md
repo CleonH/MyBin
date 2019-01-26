@@ -3,8 +3,8 @@
 ## AutoKey mysterious 'e' fix
 END-e-fix.py  
 ```
-# map [Super+E] to [shift]
-keyboard.send_key("<Shift>")
+# map [Super+E] to [escape]
+keyboard.send_key("<escape>")
 ```
 
 ## xfce4-setting && xfwm-setting 
