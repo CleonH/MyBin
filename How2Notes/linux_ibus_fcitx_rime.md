@@ -33,7 +33,25 @@ ArchWiki上的ibus手册都已经过时了，会害人的。还有在运行ibus-
 
 本方法也可适用于ibus切换为fcitx。
 ```
+### ibus词库
 
+https://code.google.com/p/hslinuxextra/downloads/list
+```
+1. 下载搜狗词库
+ 
+搜狗词库下载地址：http://hslinuxextra.googlecode.com/files/android.7z
+解压下载的文件,你会得到一个叫android.db的文件，大约在100M左右。
+ 
+2. 替换ibus-pinyin词库
+ 
+注意，当我们把这个文件放到/usr/share/ibus-pinyin/db里面的时候，必须使用root权限（最好将原词库备份）。
+ 
+3.重启ibus
+ 
+
+killall ibus-daemon;
+ibus-daemon -d;
+```
 
 ### rime 
 ```
@@ -42,3 +60,5 @@ ArchWiki上的ibus手册都已经过时了，会害人的。还有在运行ibus-
 
 
 ```
+
+###
