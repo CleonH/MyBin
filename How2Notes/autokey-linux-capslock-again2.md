@@ -15,11 +15,12 @@ super+f
 super+t
 ```
 ### right hand
-
+```
 - Small Jump -->  <alt>+<left> ; 
 - Big Jump -->  <ctrl>+<left>;
 
 - {SELECT} --> <shift>+{JUMP}
+```
 
 ```
 <capsL>   + <i>   = {copy}
@@ -31,7 +32,7 @@ super+t
 
 {YU;I;OP;[ ] \}
 --------------------------------
-CapsLock -  jump/remap  
+```CapsLock -  jump/remap  
 {jump-WordLeft}{jump-WordRight}   {-I-}  {LeftBrace}{RightBrace} <Home> <End>  {"*super*\"} 
 
 Shift - select
@@ -39,9 +40,11 @@ Shift - select
 
 Alt- remap 
  67890{LeftBrace}{RightBrace} | {"+"}
+ ```
 
 {HJKL | : "}
 -----------------------------
+```
 CapsLock- vim like
 <left> <down><up><right>|<"!"><"=">
 
@@ -58,3 +61,4 @@ Shift - {small-select}
 
 Alt - remap <>
 NM; {LeftBrace}{RightBrace}  {"-"}
+```
