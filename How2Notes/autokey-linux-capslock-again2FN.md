@@ -3,13 +3,12 @@
 $ cat ~/.xprofile
 setxkbmap -option caps:hyper       # autokey
 ```
-addtional keys in autokey :
-- [Meta]   ?? same with super
-- [Super]  ??
-- {Hyper}  hyper will trigger super??
-- Shift
-- Alt
-- Crontrol
+modifyer keys in autokey : https://en.wikipedia.org/wiki/Super_key_(keyboard_button)#Linux_and_BSD
+- [Meta] /[Super]  ?? same 
+- {Hyper}          ?? HYPER will trigger super??
+- Shift      - modify key similar with FN
+- Alt        - 菜单GUI快捷选项
+- Crontrol   - 常见GUI热键
 
 
 ## left hand
@@ -41,19 +40,19 @@ super+t
 --------------------------------
 ```
 CapsLock -  jump/remap  
-{jump-WordLeft}{jump-WordRight}, {-I-} {cut}{paste} |<Home> <End>  {"*super*\"} 
+{jump-WordLeft}{jump-WordRight}, {-I-} {copy}{paste} |<Home> <End>  {"*super*\"} 
 
 Shift - select
  {wordleft-SELECT}{wordright-SELECT}, {-I-}|{9LeftBrace}{0RightBrace}|[till<Home>; till<End>] 
 
 Alt- remap 
- 67890{LeftBrace}{RightBrace} | {"+"}
+ YUIOP | {"+"}
  ```
  ```
-<capsL>   + <i>   = {copy}
-<shift>   + <i>   = {shift+insert}
-<ctl>+<i>  = {cut}
-<alt>+<i>  = {paste}
+<capsLoxk> +  <i>   = {cut}
+<ctl>+<i>  = {cut-TillEndOfLine}
+<shift>+<i>= {shift+insert}
+<alt>+<i>  = {insert}
 *super+i
 ```
  
