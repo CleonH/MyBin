@@ -1,5 +1,13 @@
+# Autokey
+addtional keys in autokey :
+- Crontrol
+- Alt
+- Shift
+- [Super]  ??
+- {Hyper}  hyper will trigger super??
+- [Meta]   ?? same with super??
 
-### left hand
+## left hand
 ```
 Hyper+Escape -->  <Capslock>
 Hyper+A/E  -->  <Home>/<End>
@@ -14,7 +22,7 @@ super+e
 super+f
 super+t
 ```
-### right hand
+## right hand
 ```
 - Small Jump -->  <alt>+<left> ; 
 - Big Jump -->  <ctrl>+<left>;
