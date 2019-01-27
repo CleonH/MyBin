@@ -1,11 +1,16 @@
 # Autokey
+```
+$ cat ~/.xprofile
+setxkbmap -option caps:hyper       # autokey
+```
 addtional keys in autokey :
-- Crontrol
-- Alt
-- Shift
+- [Meta]   ?? same with super
 - [Super]  ??
 - {Hyper}  hyper will trigger super??
-- [Meta]   ?? same with super??
+- Shift
+- Alt
+- Crontrol
+
 
 ## left hand
 ```
