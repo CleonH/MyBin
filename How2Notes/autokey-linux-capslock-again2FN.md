@@ -35,26 +35,28 @@ super+t
 *{SELECT} --> <shift>+{JUMP}
 ```
 
-```
-<capsL>   + <i>   = {copy}
-<shift>   + <i>   = {paste}
-<ctl>+<i>  = {cut}
-<alt>+<i>  = {shift+insert}
-*super+i
-```
+
 
 {YU;I;OP;[ ] \}
 --------------------------------
 ```
 CapsLock -  jump/remap  
-{jump-WordLeft}{jump-WordRight}   {-I-}  {9LeftBrace}{0RightBrace} <Home> <End>  {"*super*\"} 
+{jump-WordLeft}{jump-WordRight}, {-I-} {cut}{paste} |<Home> <End>  {"*super*\"} 
 
 Shift - select
- {small-SELECT}{small-SELECT}{paste}{OP} |[till<Home>; till<End>] 
+ {wordleft-SELECT}{wordright-SELECT}, {-I-}|{9LeftBrace}{0RightBrace}|[till<Home>; till<End>] 
 
 Alt- remap 
  67890{LeftBrace}{RightBrace} | {"+"}
  ```
+ ```
+<capsL>   + <i>   = {copy}
+<shift>   + <i>   = {shift+insert}
+<ctl>+<i>  = {cut}
+<alt>+<i>  = {paste}
+*super+i
+```
+ 
 
 {HJKL | : "}
 -----------------------------
