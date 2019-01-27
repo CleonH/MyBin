@@ -19,7 +19,7 @@ super+t
 - Small Jump -->  <alt>+<left> ; 
 - Big Jump -->  <ctrl>+<left>;
 
-- {SELECT} --> <shift>+{JUMP}
+*{SELECT} --> <shift>+{JUMP}
 ```
 
 ```
@@ -50,9 +50,10 @@ CapsLock- vim like
 
 Shift -  {BIG-SELECT}
 {select-to-WordLeft}{lineDown};{lineUp}{select-to-WordRight}
-
+```
 {NM<>/}
 --------------------------------
+```
 CapsLock - {small-Delete}
 {del-WordLeft}{del-WordRight}|<backsapce><delete>
 
