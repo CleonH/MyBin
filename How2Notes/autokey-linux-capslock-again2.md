@@ -1,14 +1,13 @@
 
 ### left hand
-
-Super+E      -->  <escape>
+```
 Hyper+Escape -->  <Capslock>
-
 Hyper+A/E  -->  <Home>/<End>
 Hyper+Q/Z  -->  <PgUp>/<PgDn>
-
 ```
 - CONFILIC KEYS
+```
+*Super+E     -->  *<escape>
 ctrl+s
 ctrl+w
 super+e
@@ -27,13 +26,13 @@ super+t
 <shift>   + <i>   = {paste}
 <ctl>+<i>  = {cut}
 <alt>+<i>  = {shift+insert}
-*super+<i>  * goldendict 
+*super+i
 ```
 
-{YU;I;OP;[ ]}
+{YU;I;OP;[ ] \}
 --------------------------------
 CapsLock -  jump/remap  
-{jump-WordLeft}{jump-WordRight}   {-I-}  {LeftBrace}{RightBrace} <Home> <End>   
+{jump-WordLeft}{jump-WordRight}   {-I-}  {LeftBrace}{RightBrace} <Home> <End>  {"*super*\"} 
 
 Shift - select
  {small-SELECT}{small-SELECT}{paste}{OP} |[till<Home>; till<End>] 
