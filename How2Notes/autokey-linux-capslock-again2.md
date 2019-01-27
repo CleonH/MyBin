@@ -32,8 +32,9 @@ super+t
 
 {YU;I;OP;[ ] \}
 --------------------------------
-```CapsLock -  jump/remap  
-{jump-WordLeft}{jump-WordRight}   {-I-}  {LeftBrace}{RightBrace} <Home> <End>  {"*super*\"} 
+```
+CapsLock -  jump/remap  
+{jump-WordLeft}{jump-WordRight}   {-I-}  {9LeftBrace}{0RightBrace} <Home> <End>  {"*super*\"} 
 
 Shift - select
  {small-SELECT}{small-SELECT}{paste}{OP} |[till<Home>; till<End>] 
@@ -50,6 +51,9 @@ CapsLock- vim like
 
 Shift -  {BIG-SELECT}
 {select-to-WordLeft}{lineDown};{lineUp}{select-to-WordRight}
+
+alt+;'  # rime默认半角符号
+{"逗号"}{"句号"}
 ```
 {NM<>/}
 --------------------------------
