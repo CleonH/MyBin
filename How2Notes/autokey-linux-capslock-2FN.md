@@ -34,15 +34,17 @@ super+t
 *{SELECT} --> <shift>+{JUMP}
 ```
 
- - {-I-} key special defind:
+ - {-I-\-enter-} keys special defind:{copy/paste}{cut/<insert>} <escape> {cut-tillLineEnd} {newline}
  ```
-<capslock> + <i> = {copy}
-<capslock> + <\> = {paste}
-<hyper>+<shift>+<i> = {cut}
-<hyper>+<ctl>+<i> = {cut-TillEndOfLine}
+<capslock> + <i> = <copy>                                <capslock> + < \ >  = {cut}
+<hyper>+<alt>+<i> = <escape>                                  <alt> + < \ >  = {cut-TillEndOfLine}
+<hyper>+<shift>+<i>  = <insert>                             <capslock> + <enter> = {paste}
+<hyper>+<ctl>+<i>    = {cut-TillEndOfLine}                  <alt> + <enter>      = <escape>
+                                                            <shift> + <enter> = {shift+insert}
+                                                            <ctrl> + <enter> = {newline}
 #<shift>+<i>= <charI>
 #<alt>+<i>  = menu-I
-*super+i
+*super+i  {*undefind}
 ```
 
 
@@ -50,26 +52,26 @@ super+t
 --------------------------------
 ```
 [CapsLock+X] : jump/remap  
-<Home>   <up>  {-I-}  <down><End> | {LeftBrace}{RightBrace}  <escape>
+<Home>   <up>  {-I-}  <down><End> | {*LeftBrace} {*RightBrace}  *{\undefind\}
 
 [Hyper+Shift+X] : select
 <Home>   <up>  {-I-}  <down><End> |  #(null <{><}><\>)
 
 [Alt+X] : remap 
- menu-YUIOP | {PgUp}{PgDn}
+ menu-YUIOP                       | {PageUp}{PageDn} ; *{\undefind\}
  ```
 
  {HJKL | : " <Enter>}
 -----------------------------
 ```
 [CapsLock+X]  : jump by char/word (NOT vim)
-{WordLeft}<left> <right>{WordRight} | <"!"> <"="> ;  {NewLine}
+{WordLeft}<left> <right>{WordRight} | <"!"> <"="> ;   *{undefindEnter}
 
 [Hyper+Shift+X] :  select
-{WordLeft}<left> <right>{WordRight} | #(null <:><">; <shiftEnter>)
+{WordLeft}<left> <right>{WordRight} | #(null <:><">;   <shiftEnter>)
 
 [Alt+X] : remap # 全角符号(rime默认半角符号)
-menu-HJKL  |  {"chinese逗号"}{"chinese句号"};  <escape>
+menu-HJKL                           |  {"逗号"}{"句号"}; *{undefindEnter}
 ```
 {NM<>/}
 --------------------------------
