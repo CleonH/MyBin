@@ -38,13 +38,13 @@ super+t
  ```
 <capslock> + <i> = <copy>                                <capslock> + < \ >  = {cut}
 <hyper>+<alt>+<i> = <escape>                                  <alt> + < \ >  = {cut-TillEndOfLine}
-<hyper>+<shift>+<i>  = <insert>                             <capslock> + <enter> = {paste}
-<hyper>+<ctl>+<i>    = {cut-TillEndOfLine}                  <alt> + <enter>      = <escape>
-                                                            <shift> + <enter> = {shift+insert}
-                                                            <ctrl> + <enter> = {newline}
+<hyper>+<shift>+<i>  = <insert>                         <capslock> + <enter> = {paste}
+<hyper>+<ctl>+<i>    = {cut-TillEndOfLine}                 #<alt>  + <enter> = <escape>
+                                                           #<shift>+ <enter> = {shift+insert}
+                                                           #<ctrl> + <enter> = {newline}
 #<shift>+<i>= <charI>
-#<alt>+<i>  = menu-I
-*super+i  {*undefind}
+#<alt>+<i>  = menu-I         # <capslock>+<B>={prefix/escape}
+*super+i  {*undefind}        # <capslock>+<Z-M>={undefind}  ## <capslock>+<v>={paste}
 ```
 
 
