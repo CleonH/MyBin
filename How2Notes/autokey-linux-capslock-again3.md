@@ -11,7 +11,7 @@ modifyer keys in autokey : https://en.wikipedia.org/wiki/Super_key_(keyboard_but
 - Crontrol   - 常见GUI热键  #  SYS  - check confictions needed
 
 
-## left hand
+## left hand - emacs like Home/End
 ```
 Hyper+Escape -->  <Capslock>
 Hyper+A/E  -->  <Home>/<End>
@@ -26,7 +26,7 @@ super+e
 super+f
 super+t
 ```
-## right hand
+## right hand - vim like Up/Down
 ```
 - Small Jump -->  <alt>+<left> ; 
 - Big Jump -->  <ctrl>+<left>;
