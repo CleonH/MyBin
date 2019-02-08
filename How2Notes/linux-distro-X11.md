@@ -1,3 +1,13 @@
+homebrew for linux 
+- https://nixos.org
+- http://www.gnu.org/software/guix/
+```
+作者：Haoyuan Xing
+链接：https://www.zhihu.com/question/20022687/answer/45125110
+
+在Linux下使用Homebrew意义不大。Homebrew之所以这么设计，很大程度上是为了绕开Mac OS X系统设计中的问题。但是按Linux的标准来看，Homebrew是一个实现的很糟糕的包管理器：使用用户本身权限编译软件，而非fakeroot编译环境，带来安全隐患破坏/usr/local的权限（和内容）和系统本身的软件包常常冲突很多软件仍然需要大量重编译由于依赖OS X的库，升级系统很容易带来软件包乃至homebrew自身的运行问题存在可以实现homebrew的软件包管理器，没有必要继续重造轮子根本原因是因为，OS X没有内置的软件包管理机制，所以任何其他的软件包管理器都不得迁就OS X本身自带的软件版本，而在Linux下，一般系统中所有的软件包版本，都由发行版本身的软件包管理器分发和维护，这样保证了系统的稳定、没有冲突。对于CentOS来说，系统自带的yum已经可以完成大部分的软件管理工作 PackageManagementCentOS是以『稳定』为第一考量的发行版，所以不建议重新编译软件，参见 PackageManagement/SourceInstalls你可以自己对软件进行打包，然后安装 HowTos/SetupRpmBuildEnvironment如果你喜欢最新的软件版本，请尝试Arch Linux如果你喜欢源码编译，类似ports的系统，请尝试Gentoo Linux发行版当然，安装在userspace的软件包管理器也有它的好处，如果你需要类似homebrew这样，安装在userspace的软件包管理器，请参考nix(https://nixos.org/nix/)和GNU Guix
+```
+
 ## X11  - https://distrowatch.com/
 
 - kde
