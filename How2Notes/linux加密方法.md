@@ -1,13 +1,14 @@
-##
-gzexe 加密压缩,脚本隐藏脚本密码
-tar + openssl 打包，外层加密（目录？）
-shc   针对shell脚本加密
-zip   文件/文件夹加密，目录不加密
-GnuPG 只能对文件进行加密，对目录则无法完成加密
-*ccrypt*
-*encfs*
-*disk encryption*
-*ovelay-fs encryptioin*
+## Index
+- gzexe 加密压缩,脚本隐藏脚本密码
+- tar + openssl 打包，外层加密（目录？）
+- shc   针对shell脚本加密
+- zip   文件/文件夹加密，目录不加密
+- GnuPG 只能对文件进行加密，对目录则无法完成加密
+- *ccrypt*
+- *encfs*
+- *disk encryption*
+- *ovelay-fs encryptioin*
+
 ###  gzexe
 这种加密方式不是非常保险的方法，但是能够满足一般的加密用途，可以隐蔽脚本中的密码等信息。
 它是使用系统自带的gzexe程序，它不但加密，同时压缩文件。
@@ -16,7 +17,7 @@ gzexe方法会把原来没有加密的文件a.txt备份为a.txt~ ,同时a.txt文
 使用-d参数进行解压操作
 
 
-###方法二：用tar命令 对文件加密压缩和解压 
+### tar命令 对文件加密压缩和解压 
 ```
 [root@ipsan-node03 ~]# ls
 test.txt
@@ -64,7 +65,7 @@ heiheihei
 
 ```
 
-### 方法三：结合Tar和OpenSSL给文件和目录加密及解密
+结合Tar和OpenSSL给文件和目录加密及解密
 ```
 当有重要的敏感数据的时候，给文件和目录额外加一层保护是至关重要的，特别是当需要通过网络与他人传输数据的时候。基于这个原因，
 可以用到tar（Linux 的一个压缩打包工具）和OpenSSL来解决的方案。借助这两个工具，你真的可以毫不费力地创建和加密 tar 归档文件。
@@ -120,7 +121,7 @@ a.txt  b.txt  c.txt  test.tar.gz
 当你在本地网络或因特网工作的时候，你可以随时通过加密来保护你和他人共享的重要文本或文件，这有助于降低将其暴露给恶意攻击者的风险。
 ```
 
-### 方法四：shc加密（仅仅对shell脚本加密）
+### shc加密（仅仅对shell脚本加密）
 ```
 shc是一个专业的加密shell脚本的工具.它的作用是把shell脚本转换为一个可执行的二进制文件，这个办法很好的解决了脚本中含有IP、
 密码等不希望公开的问题。
@@ -237,14 +238,14 @@ shc Usage: shc [-e date] [-m addr] [-i iopt] [-x cmnd] [-l lopt] [-rvDTCAh] -f s
 但移到另一台CentOS6.9上直接运行没问题。
 ```
 
-### 方法五： ZIP加密
+### ZIP加密
 
 1）文件加密
 使用命令"zip -e filename.zip filename" 即可出现输入密码的提示，输入2次密码。 此文件即被加密解压时候是需要密码的
 2）文件夹加密
 使用命令"zip -re dirname.zip dirname"即可出现输入密码的提示，输入2次密码。 此文件即被加密解压时候是需要密码的。
 
-### 方法六：GnuPG加密
+### GnuPG加密
 
 GnuPG的全称是GNU隐私保护(GNU Privacy Guard)，常常被称为GPG，它结合了一组加密软件。它是由GNU项目用C编程语言编写的。最新的稳定版本是2.0.27。在如今的大多数Linux发行版中，gnupg程序包都是默认随带的，所以万一它没有安装，你可以使用apt或yum从软件库来安装它（yum install gnupg）。注意：gpg只能对文件进行加密，对目录则无法完成加密！
 ```
