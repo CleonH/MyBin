@@ -4,7 +4,10 @@ tar + openssl 打包，外层加密（目录？）
 shc   针对shell脚本加密
 zip   文件/文件夹加密，目录不加密
 GnuPG 只能对文件进行加密，对目录则无法完成加密
-
+*ccrypt*
+*encfs*
+*disk encryption*
+*ovelay-fs encryptioin*
 ###  gzexe
 这种加密方式不是非常保险的方法，但是能够满足一般的加密用途，可以隐蔽脚本中的密码等信息。
 它是使用系统自带的gzexe程序，它不但加密，同时压缩文件。
