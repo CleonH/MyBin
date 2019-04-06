@@ -28,6 +28,9 @@ slmgr -ato
 ```
 lenovodm.exe自动驱动
 asusLiveUpdate https://www.asus.com.cn/support/Download-Center/ 
+！驱动安装好后，备份映像
+！备份映像好后，开启系统还原点
+！设置还原点后，开始装软件
 ```
 
 
