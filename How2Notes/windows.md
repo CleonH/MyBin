@@ -112,3 +112,13 @@ autopoweroff
 后台服务
 计划任务
 ```
+
+- windows ftpd
+```
+* filezilla，防火墙端口/启动服务/管理员密码/用户/路径/tls证书
+
+* WinServer 服务
+为windows开启ftp功能：控制面板-->程序和功能-->打开或关闭Windows功能
+添加FTP站点：打开控制面板-->管理工具-->双击Internet信息服务（IIS）管理器如下图添加FTP站点
+
+```
