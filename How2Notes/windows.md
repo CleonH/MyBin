@@ -36,6 +36,8 @@ slmgr -ato
 ```
 lenovodm.exe自动驱动
 asusLiveUpdate https://www.asus.com.cn/support/Download-Center/ 
+管理员权限，运行compmgmt，设备管理器，驱动安装检查顺序- 主板/网卡，intel集成显卡，其他
+
 ！驱动安装好后，备份映像
 ！备份映像好后，开启系统还原点
 ！设置还原点后，开始装软件
