@@ -5,9 +5,11 @@ wepe x32/x64/BIOS/UEFI
 ```
 
 - WinOS 版本 光盘&激活 : 
-windows8/10 direct http download 
-msdnItellu ed2k link
- 
+```
+windows8/10 微软官网http下载
+msdnItellu ed2k 迅雷
+``` 
+
 品牌机OEM自动激活
 kms不支持 旗舰版/零售版
 kms支持 大客户版VL
