@@ -93,4 +93,9 @@ wim/gho
 portable_green-software
 sandboxie
 UAC
+开机自启动-禁止
+后台服务-禁止
+windows搜索路径-删appdata
+windows自动更新- 禁用？
 ```
+
