@@ -93,12 +93,22 @@ wim/gho
 
 - 软件/防火墙/用户权限
 ```
-portable_green-software
-sandboxie
-UAC
-开机自启动-禁止
-后台服务-禁止
+管理员账号密码/UAC/sandboxie
+常用软件：7zip/everything/sumatraPDF/thunder
+绿色软件文件扩展名关联
+绿色软件portableapps/sandboxie沙盘拷贝
+输入法/浏览器插件/全局代理服务器-internet选项-局域网设置/网卡ipv4-DNS
+开机自启动项目 -禁止
+后台服务项目 -禁止
 windows搜索路径-删appdata
 windows自动更新- 禁用？
 ```
 
+- 自动登陆/计划任务/电源管理/
+```
+control userpasswords2
+autohotkey
+autopoweroff
+后台服务
+计划任务
+```
