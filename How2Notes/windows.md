@@ -8,6 +8,13 @@ wepe x32/x64/BIOS/UEFI
 ```
 windows8/10 微软官网http下载
 msdnItellu ed2k 迅雷
+
+WEPE下直接挂载光盘安装
+ultraISO刻录，添加启动引导，主板启动u盘安装
+rufus/yumi_multiboot/unetbootin/etcher
+
+磁盘格式GPT可能不支持/MGR支持，winxp/win7不支持UEFI/GPT，win7支持MBR
+！系统引导修复，linuxGrub多启动，etc。。。
 ```
 ``` 
 品牌机OEM自动激活
@@ -37,8 +44,8 @@ asusLiveUpdate https://www.asus.com.cn/support/Download-Center/
 
 
 - Office 
-LibreOffice/
-MSOffice 激活 
+! 替代 LibreOffice_portable
+! 激活 MSOffice
 ```
 cd to %office15% 
 cscript ospp.vbs /sethst:127.0.0.2 
@@ -46,12 +53,15 @@ cscript ospp.vbs /act
 ```
 
 - windows修复
-驱动/注册表 ： 系统还原
-系统文件修复：
-```
-360系统重装大师？ 保留用户文件？
 
+```
++驱动/注册表 ：
+系统还原点
+
++系统文件修复：
+360系统重装大师？ 保留用户文件？
 使用sfc和dism命令修复系统有哪些区别？
+。。。
 ```
 
 - windows 系统备份映像
