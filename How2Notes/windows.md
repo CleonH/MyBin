@@ -8,11 +8,12 @@ wepe x32/x64/BIOS/UEFI
 ```
 windows8/10 微软官网http下载
 msdnItellu ed2k 迅雷
+```
 ``` 
-
 品牌机OEM自动激活
 kms不支持 旗舰版/零售版
 kms支持 大客户版VL
+```
 ```
 win10专业版
 按 win+X 组合键，打开“命令提示符(管理员)（A）”。
