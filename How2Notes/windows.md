@@ -1,7 +1,8 @@
 - winPE盘 
 ```
-wepe x32/x64/BIOS/UEFI 
-主板启动
+wepe x32/x64/BIOS/UEFI （UltraISO写入硬盘，添加引导）
+
+主板启动引导按键：ESC，F1~F12,DEL
 ```
 
 - WinOS 版本 光盘&激活 : 
