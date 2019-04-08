@@ -146,7 +146,7 @@ AllDup 找重复文件  http://www.alldup.de/en_download_alldup.php
 aria2-uget  https://ugetdm.com/
 aria2-motrix https://motrix.app/
 qbittorrent
-*迅雷绿色版/小米路由器
+*迅雷绿色版/小米路由器远程下载
 
 
 SumatraPDF阅读器（mobi,epub)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
