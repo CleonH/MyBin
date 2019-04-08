@@ -118,6 +118,11 @@ MS-Win7/8/10 操作系统 https://msdn.itellyou.cn/ （大客户版KMS/OEM主板
 MS-Office  应用程序 https://msdn.itellyou.cn/   （大客户版KMS激活，迅雷下载，hash检查）
 LibreOffice  开源，兼容 https://zh-cn.libreoffice.org/
 
+！杀毒软件：
+win7-MS-Essencial
+Win8/10内置
+*火绒安全
+
 
 火狐浏览器  https://www.firefox.com.cn
 谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
