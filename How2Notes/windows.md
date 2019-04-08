@@ -102,6 +102,81 @@ wim/gho
 后台服务项目 -禁止
 windows搜索路径-删appdata
 windows自动更新- 禁用？
+
+
+
+===============
+
+
+【微软windows签名认证】 签名，证书，正版，原版。
+*HashMyfile 文件指纹检查
+
+WEPE 工具箱   http://www.wepe.com.cn/
+MS-Win7/8/10 操作系统 https://msdn.itellyou.cn/ （大客户版KMS/OEM主板激活，迅雷下载，hash检查）
+
+MS-Office  应用程序 https://msdn.itellyou.cn/   （大客户版KMS激活，迅雷下载，hash检查）
+LibreOffice  开源，兼容 https://zh-cn.libreoffice.org/
+
+
+火狐浏览器  https://www.firefox.com.cn
+谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
+
+firefox浏览器插件  https://addons.mozilla.org/zh-CN/firefox/
+adblock  https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus/
+OneTab   https://addons.mozilla.org/zh-CN/firefox/addon/onetab/
+印象剪藏  https://addons.mozilla.org/zh-CN/firefox/addon/evernote-web-clipper/
+
+
+系统内置输入法
+小狼毫输入法  https://rime.im/
+*谷歌输入法/qq输入法/必应输入法  http://qq.pinyin.cn/
+
+
+
+VLC播放器   https://www.videolan.org/
+*qq播放器   http://player.qq.com/
+
+7zip解压缩  https://sparanoid.com/lab/7z/
+*bandzip解压缩  https://www.bandisoft.com/bandizip/
+
+
+Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
+AllDup 找重复文件  http://www.alldup.de/en_download_alldup.php
+
+aria2-uget  https://ugetdm.com/
+aria2-motrix https://motrix.app/
+qbittorrent
+*迅雷绿色版
+
+
+SumatraPDF阅读器（mobi,epub)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+goldendict  http://goldendict.org/
+*欧陆词典  http://dict.eudic.net/
+*有道词典
+
+
+印象笔记/evernote  https://www.yinxiang.com
+OneNote   https://www.onenote.com/Download
+
+
+备选：
+PortableApps 绿色软件 https://portableapps.com/
+sandboxie 沙盘软件   https://www.sandboxie.com/
+geek uninstaller 卸载工具 https://geekuninstaller.com/
+ccleaner 清理工具  https://www.ccleaner.com/ccleaner
+recuva 误删恢复    https://www.ccleaner.com/recuva
+
+
+黑名单：（管理员权限）
+360杀毒/360安全卫士
+迅雷安装版
+美图秀秀
+搜狗输入法
+xx播放器
+
+
+
+================
 ```
 
 - 自动登陆/计划任务/电源管理/
@@ -122,3 +197,6 @@ autopoweroff
 添加FTP站点：打开控制面板-->管理工具-->双击Internet信息服务（IIS）管理器如下图添加FTP站点
 
 ```
+
+
+
