@@ -75,6 +75,8 @@ wim/gho
 ```
 
 - windows8/10 还原系统而不删除你的文件
+https://jingyan.baidu.com/article/64d05a0276f53fde55f73bcf.html
+
 ```
 如果自己就有win8的ISO或是已经下载好了，需要设置调用目录。
 在E盘目录下，新建一个文件，命名为win8，将ISO放入并解压在这个文件里面。
