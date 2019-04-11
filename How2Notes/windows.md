@@ -59,6 +59,7 @@ slmgr -ato
 主页 https://zh-cn.libreoffice.org 
 中科大镜像站 http://mirrors.ustc.edu.cn/tdf/libreoffice/stable/
 便携版 https://portableapps.com/apps/office/libreoffice_portable
+清华镜像站 https://mirrors.tuna.tsinghua.edu.cn/libreoffice/libreoffice/portable/
 
 ! KMS激活 MSOffice  （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
 
