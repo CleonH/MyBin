@@ -160,8 +160,9 @@ Win8/10内置
 
 -------------------------------------------------------------------------------
 ！软件白名单：（推荐）
-
+win8/10 微软自带uwp商店 QQ/微信/百度云 （国产软件尽量用UWP版本）
 PortableApps 绿色软件 https://portableapps.com/
+
 autohotkey自动化 https://www.autohotkey.com/
 
 火狐浏览器  https://www.firefox.com.cn
