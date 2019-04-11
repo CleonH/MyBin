@@ -17,7 +17,7 @@ WEPE下直接挂载光盘安装
 *ultraISO刻录，添加启动引导，主板启动u盘安装
 rufus/yumi_multiboot/unetbootin/etcher
 
-！菜鸟新手请勿格式化磁盘，增删分区，修个分区表，备份还原。
+！菜鸟新手请勿 格式化磁盘，增删分区，修个分区表，备份还原。
 ！菜鸟请用win8/10自带系统恢复，“恢复你的系统而不删除文件”
 ！磁盘格式GPT可能不支持，（菜鸟新手格式化磁盘为MGR丢失全盘数据），winxp/win7不支持UEFI/GPT，win7支持MBR
 ！系统引导修复，linuxGrub多启动，etc。。。
@@ -147,6 +147,7 @@ Win8/10内置
 ！白名单：（推荐）
 
 PortableApps 绿色软件 https://portableapps.com/
+qdir-portable http://www.softwareok.com/?Download=Q-Dir
 
 火狐浏览器  https://www.firefox.com.cn
 谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
@@ -207,15 +208,15 @@ autopoweroff
 计划任务
 ```
 
-- windows smb / ftpd
+- 存储服务器 smb / ftpd （笔记本光驱位装硬盘）
 ```
-小米路由器文件共享
-群晖NAS文件服务器
+win存储池/局域网文件共享
+小米路由器文件共享/远程读写
+群晖NAS文件服务器/远程读写
+FreeNAS/ZFS
 
-
-* filezilla，防火墙端口/启动服务/管理员密码/用户/路径/tls证书
-
-* WinServer 服务
+* filezilla-FTP，防火墙端口/启动服务/管理员密码/用户/路径/tls证书
+* WinServer-FTP服务
 为windows开启ftp功能：控制面板-->程序和功能-->打开或关闭Windows功能
 添加FTP站点：打开控制面板-->管理工具-->双击Internet信息服务（IIS）管理器如下图添加FTP站点
 
