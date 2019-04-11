@@ -147,7 +147,7 @@ Win8/10内置
 ！白名单：（推荐）
 
 PortableApps 绿色软件 https://portableapps.com/
-qdir-portable http://www.softwareok.com/?Download=Q-Dir
+autohotkey自动化 https://www.autohotkey.com/
 
 火狐浏览器  https://www.firefox.com.cn
 谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
@@ -158,12 +158,9 @@ OneTab   https://addons.mozilla.org/zh-CN/firefox/addon/onetab/
 印象剪藏  https://addons.mozilla.org/zh-CN/firefox/addon/evernote-web-clipper/
 
 
-win微软内置输入法 词库https://github.com/studyzy/imewlconverter
-rime小狼毫输入法  https://rime.im/
-Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93
-*qq输入法/必应输入法/谷歌输入法  http://qq.pinyin.cn/
-*qq拼音词库 https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win
-
+win微软内置输入法 （词库https://github.com/studyzy/imewlconverter）
+rime小狼毫输入法  https://rime.im/ （Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93）
+*qq输入法/必应输入法/谷歌输入法  http://qq.pinyin.cn/ （qq拼音词库 https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win）
 
 VLC播放器   https://www.videolan.org/
 *qq播放器   http://player.qq.com/
@@ -171,7 +168,7 @@ VLC播放器   https://www.videolan.org/
 7zip解压缩（rar/zip/7z格式绑定） https://sparanoid.com/lab/7z/    https://www.7-zip.org/
 *bandzip解压缩  https://www.bandisoft.com/bandizip/
 
-
+qdir 多窗文件管理器 http://www.softwareok.com/?Download=Q-Dir
 Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
 AllDup 找重复文件  http://www.alldup.de/en_download_alldup.php
 
@@ -180,12 +177,10 @@ aria2-motrix https://motrix.app/
 qbittorrent
 *迅雷绿色版/小米路由器远程下载
 
-
 SumatraPDF阅读器（mobi,epub)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 goldendict  http://goldendict.org/
 *欧陆词典  http://dict.eudic.net/
 *有道词典
-
 
 印象笔记/evernote  https://www.yinxiang.com
 OneNote   https://www.onenote.com/Download
