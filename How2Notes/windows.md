@@ -7,14 +7,17 @@ wepe x32/x64/BIOS/UEFI （UltraISO写入硬盘，添加引导）
 
 - WinOS 版本 光盘&激活 : 
 ```
-windows8/10 微软官网http下载
-msdnItellu ed2k 迅雷
+* MSDN-Itellu 迅雷ed2k链接
+windows8/10 微软官网 
+https://www.microsoft.com/zh-cn/software-download/windows8ISO
+https://www.microsoft.com/zh-cn/software-download/windows10
 
+MediaCreationTool1809 使用该工具创建安装介质（USB 闪存驱动器、DVD 或 ISO 文件），以在其他电脑上安装 Windows 10）
 WEPE下直接挂载光盘安装
-ultraISO刻录，添加启动引导，主板启动u盘安装
+*ultraISO刻录，添加启动引导，主板启动u盘安装
 rufus/yumi_multiboot/unetbootin/etcher
 
-磁盘格式GPT可能不支持/MGR支持，winxp/win7不支持UEFI/GPT，win7支持MBR
+！磁盘格式GPT可能不支持，（菜鸟新手格式化磁盘为MGR丢失全盘数据），winxp/win7不支持UEFI/GPT，win7支持MBR
 ！系统引导修复，linuxGrub多启动，etc。。。
 ```
 ``` 
@@ -76,8 +79,8 @@ cscript ospp.vbs /act
 
 - windows 系统备份映像
 ```
-wim/gho
-出厂一键修复
+wim/gho 原厂一键修复的备份映像文件，不要删除
+WEPE恢复备份工具，菜鸟新手恢复分区，注意盘符，小心丢失数据
 ```
 
 - windows8/10 还原系统而不删除你的文件
