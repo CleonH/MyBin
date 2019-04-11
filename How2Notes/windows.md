@@ -136,7 +136,7 @@ OneTab   https://addons.mozilla.org/zh-CN/firefox/addon/onetab/
 印象剪藏  https://addons.mozilla.org/zh-CN/firefox/addon/evernote-web-clipper/
 
 
-系统内置输入法
+win微软内置输入法 词库https://github.com/studyzy/imewlconverter
 rime小狼毫输入法  https://rime.im/
 Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93
 *谷歌输入法/qq输入法/必应输入法  http://qq.pinyin.cn/
