@@ -126,12 +126,15 @@ win7-MS-Essencial
 Win8/10内置
 *火绒安全
 
-！黑名单：（UAC管理员权限）
+！黑名单：（普通软件不会要求，UAC管理员权限）
 ------------------------------------------------------------------
 360杀毒/360安全卫士   迅雷安装版  美图秀秀 搜狗输入法   xx播放器
 ...（UAC警告，管理员权限）
 ------------------------------------------------------------------
 
+！白名单：（推荐）
+
+PortableApps 绿色软件 https://portableapps.com/
 
 火狐浏览器  https://www.firefox.com.cn
 谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
@@ -145,14 +148,14 @@ OneTab   https://addons.mozilla.org/zh-CN/firefox/addon/onetab/
 win微软内置输入法 词库https://github.com/studyzy/imewlconverter
 rime小狼毫输入法  https://rime.im/
 Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93
-*谷歌输入法/qq输入法/必应输入法  http://qq.pinyin.cn/
+*qq输入法/必应输入法/谷歌输入法  http://qq.pinyin.cn/
 *qq拼音词库 https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win
 
 
 VLC播放器   https://www.videolan.org/
 *qq播放器   http://player.qq.com/
 
-7zip解压缩  https://sparanoid.com/lab/7z/
+7zip解压缩（rar/zip/7z格式绑定） https://sparanoid.com/lab/7z/    https://www.7-zip.org/
 *bandzip解压缩  https://www.bandisoft.com/bandizip/
 
 
@@ -176,16 +179,10 @@ OneNote   https://www.onenote.com/Download
 
 
 备选：
-PortableApps 绿色软件 https://portableapps.com/
 sandboxie 沙盘软件   https://www.sandboxie.com/
-geek uninstaller 卸载工具 https://geekuninstaller.com/
+geekuninstaller 卸载工具 https://geekuninstaller.com/
 ccleaner 清理工具  https://www.ccleaner.com/ccleaner
 recuva 误删恢复    https://www.ccleaner.com/recuva
-
-
-
-
-
 ================
 ```
 
@@ -211,6 +208,3 @@ autopoweroff
 添加FTP站点：打开控制面板-->管理工具-->双击Internet信息服务（IIS）管理器如下图添加FTP站点
 
 ```
-
-
-
