@@ -126,6 +126,12 @@ win7-MS-Essencial
 Win8/10内置
 *火绒安全
 
+！黑名单：（UAC管理员权限）
+------------------------------------------------------------------
+360杀毒/360安全卫士   迅雷安装版  美图秀秀 搜狗输入法   xx播放器
+...（UAC警告，管理员权限）
+------------------------------------------------------------------
+
 
 火狐浏览器  https://www.firefox.com.cn
 谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
@@ -177,12 +183,6 @@ ccleaner 清理工具  https://www.ccleaner.com/ccleaner
 recuva 误删恢复    https://www.ccleaner.com/recuva
 
 
-黑名单：（管理员权限）
-360杀毒/360安全卫士
-迅雷安装版
-美图秀秀
-搜狗输入法
-xx播放器
 
 
 
