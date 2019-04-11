@@ -17,6 +17,8 @@ WEPE下直接挂载光盘安装
 *ultraISO刻录，添加启动引导，主板启动u盘安装
 rufus/yumi_multiboot/unetbootin/etcher
 
+！菜鸟新手请勿格式化磁盘，增删分区，修个分区表，备份还原。
+！菜鸟请用win8/10自带系统恢复，“恢复你的系统而不删除文件”
 ！磁盘格式GPT可能不支持，（菜鸟新手格式化磁盘为MGR丢失全盘数据），winxp/win7不支持UEFI/GPT，win7支持MBR
 ！系统引导修复，linuxGrub多启动，etc。。。
 ```
