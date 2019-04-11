@@ -44,7 +44,7 @@ slmgr -ato
 华硕asusLiveUpdate https://www.asus.com.cn/support/Download-Center/ 
 
 检查驱动安装完整：
-管理员权限，运行compmgmt，设备管理器，驱动安装检查顺序- 主板/网卡，intel集成显卡，其他
+管理员权限，运行compmgmt.msc，设备管理器，驱动安装检查顺序 【主板/网卡 -> intel集成显卡 -> 其他】
 (winxp/win7无免驱动网卡时，先查型号，到官网下载驱动u盘拷贝。  官网驱动找不到，驱动精灵网卡集成版）
 
 ！驱动安装好后，备份映像
