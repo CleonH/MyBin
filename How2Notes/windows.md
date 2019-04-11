@@ -31,7 +31,7 @@ kms支持 大客户版VL      （**版权非法，大型企业学校勿用，请
 win10专业版
 按 win+X 组合键，打开“命令提示符(管理员)（A）”。
 slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr -skms kms.landian.news  （KMS服务器地址，可用未知）
+slmgr -skms kms.win.server  （KMS服务器地址，不可用）
 slmgr -ato
 键入slmgr -xpr，回车可查看到期时间，激活有效时间为半年。这不是永久激活，需要通过正规渠道购买激活密钥激活。
 ```
