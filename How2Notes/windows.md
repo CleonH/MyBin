@@ -18,9 +18,9 @@ rufus/yumi_multiboot/unetbootin/etcher
 ！系统引导修复，linuxGrub多启动，etc。。。
 ```
 ``` 
-品牌机OEM自动激活
-kms不支持 旗舰版/零售版
-kms支持 大客户版VL
+品牌机OEM自动激活       （**版权合法**）
+kms不支持 旗舰版/零售版 （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
+kms支持 大客户版VL      （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
 ```
 ```
 win10专业版
@@ -48,8 +48,13 @@ asusLiveUpdate https://www.asus.com.cn/support/Download-Center/
 
 
 - Office 
-! 替代 LibreOffice_portable
-! 激活 MSOffice
+! 开源，免费替代 LibreOffice_portable （格式兼容很完美，开源无广告，portable版本免安装）
+主页 https://zh-cn.libreoffice.org 
+中科大镜像站 http://mirrors.ustc.edu.cn/tdf/libreoffice/stable/
+便携版 https://portableapps.com/apps/office/libreoffice_portable
+
+! KMS激活 MSOffice  （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
+微软Office安装光盘下载，md5指纹检查
 ```
 cd to %office15% 
 cscript ospp.vbs /sethst:127.0.0.2  （KMS服务器地址，不可用）
