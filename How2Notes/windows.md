@@ -1,10 +1,12 @@
 - 硬件
 ```
- 笔记本硬盘位换SSD，光驱位装HDD
+ 生活办公CPU，用核心显卡 （CPU+GPU，电池，酷睿i3/i5/酷睿M）
  固态硬盘接口类型：PCIE/mSATA/SATA/板载EMMC
- 笔记本内存插槽（可升级，单条支持最高容量，BIOS/UEFI）
- 笔记本板载内存（不可升级，办公2G/4G）
- 办公用核心显卡 （CPU+GPU，电池，酷睿i3/i5/酷睿M）
+ -笔记本硬盘位换SSD，光驱位装HDD
+ -笔记本内存插槽（可升级，单条支持最高容量，BIOS/UEFI）
+ -笔记本板载内存（不可升级，办公2G/4G）
+ 
+ 文件共享，远程访问：NAS文件服务器/路由器USB硬盘
  路由器百兆/千兆，无线路由2.4GHz/5GHz。上网速度/内网速度瓶颈，淘汰顺序：2.4GHz/USB2/百兆/(带宽)/5Ghz/千兆/USB3
 ```
 - WinPE 启动盘
@@ -97,7 +99,6 @@ cscript ospp.vbs /act
 ```
 
 
-
 - windows 系统备份映像
 ```
 wim/gho 原厂一键修复的备份映像文件，不要删除
@@ -183,12 +184,9 @@ VLC播放器   https://www.videolan.org/
 
 qdir 多窗文件管理器 http://www.softwareok.com/?Download=Q-Dir
 Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
-AllDup 找重复文件  http://www.alldup.de/en_download_alldup.php
 
-aria2-uget  https://ugetdm.com/
-aria2-motrix https://motrix.app/
-qbittorrent
-*迅雷绿色版/小米路由器远程下载
+AllDup     找重复文件   http://www.alldup.de/en_download_alldup.php
+WinDirStat 找大体积文件 https://windirstat.net/
 
 SumatraPDF阅读器（mobi,epub)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 goldendict  http://goldendict.org/
@@ -197,14 +195,30 @@ goldendict  http://goldendict.org/
 
 印象笔记/evernote  https://www.yinxiang.com
 OneNote   https://www.onenote.com/Download
+
+aria2-uget  https://ugetdm.com/
+aria2-motrix https://motrix.app/
+qbittorrent
+*迅雷绿色版/小米路由器远程下载
+
+Sublime/NotePadPlusPlus 纯文本
+Markdown/LaTex  格式文本
+Meld/WinMerge/Kdiff 文本对比
+Git/SparkleShare/MSWord 版本管理
+
 -------------------------------------------------------------------------------
 
 -----------------------------------------------
+
 备选：
 sandboxie 沙盘软件   https://www.sandboxie.com/
 geekuninstaller 卸载工具 https://geekuninstaller.com/
 ccleaner 清理工具  https://www.ccleaner.com/ccleaner
 recuva 误删恢复    https://www.ccleaner.com/recuva
+
+自动备份工具：SparkleShare/Duplicati/FreeFileSync
+同步云：OneDrive/微云同步/坚果云
+私有云：SeaFile/NextCloud/可道云/群晖NAS
 -----------------------------------------------
 ```
 
