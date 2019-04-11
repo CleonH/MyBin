@@ -55,13 +55,14 @@ slmgr -ato
 
 
 - Office 
-! 开源，免费替代 LibreOffice_portable （格式兼容很完美，开源无广告，portable版本免安装）
+! 开源替代 LibreOffice_portable （格式兼容很完美，开源无广告，portable版本免安装）
 主页 https://zh-cn.libreoffice.org 
 中科大镜像站 http://mirrors.ustc.edu.cn/tdf/libreoffice/stable/
 便携版 https://portableapps.com/apps/office/libreoffice_portable
 
 ! KMS激活 MSOffice  （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
-微软Office安装光盘下载，md5指纹检查
+
+微软Office安装光盘，迅雷ed2k下载，md5指纹检查
 ```
 cd to %office15% 
 cscript ospp.vbs /sethst:127.0.0.2  （KMS服务器地址，不可用）
