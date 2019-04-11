@@ -1,33 +1,54 @@
-- winPE盘 
+- 硬件
+```
+ 笔记本硬盘位换SSD，光驱位装HDD
+ 固态硬盘接口类型：PCIE/mSATA/SATA/板载EMMC
+ 笔记本内存插槽（可升级，单条支持最高容量，BIOS/UEFI）
+ 笔记本板载内存（不可升级，办公2G/4G）
+ 办公用核心显卡 （CPU+GPU，电池，酷睿i3/i5/酷睿M）
+ 路由器百兆/千兆，无线路由2.4GHz/5GHz。上网速度/内网速度瓶颈，淘汰顺序：2.4GHz/USB2/百兆/(带宽)/5Ghz/千兆/USB3
+```
+- WinPE 启动盘
 ```
 wepe x32/x64/BIOS/UEFI （UltraISO写入硬盘，添加引导）
-
+WEPE 工具箱   http://www.wepe.com.cn/
 主板启动引导按键：ESC，F1~F12,DEL
 ```
 
-- WinOS 版本 光盘&激活 : 
+- WinOS光盘&安装&激活 : 
+
+step1)[光盘下载]
 ```
-* MSDN-Itellu 迅雷ed2k链接
-windows8/10 微软官网 
+[方法一] ed2k链接
+MS-Win7/8/10 操作系统 https://msdn.itellyou.cn/ （vl大客户版KMS/OEM主板激活，迅雷ed2k下载，hash检查）
+MS-Office  应用程序 https://msdn.itellyou.cn/   （vol大客户版KMS激活，迅雷ed2k下载，hash检查）
+
+[方法二] windows8/10 微软官网 
 https://www.microsoft.com/zh-cn/software-download/windows8ISO
 https://www.microsoft.com/zh-cn/software-download/windows10
+```
 
-MediaCreationTool1809 使用该工具创建安装介质（USB 闪存驱动器、DVD 或 ISO 文件），以在其他电脑上安装 Windows 10）
-WEPE下直接挂载光盘安装
-*ultraISO刻录，添加启动引导，主板启动u盘安装
-rufus/yumi_multiboot/unetbootin/etcher
+step2)[安装系统]
+```
+[方法一]WEPE下直接挂载光盘安装
+[方法二]微软官网 MediaCreationTool 使用该工具创建安装介质（USB/光盘），以在其他电脑上安装 Windows 10
+[方法三]*ultraISO刻录，添加启动引导，主板启动u盘安装
+[方法四]rufus/yumi_multiboot/unetbootin/etcher
 
+【警告】
 ！菜鸟新手请勿 格式化磁盘，增删分区，修个分区表，备份还原。
 ！菜鸟请用win8/10自带系统恢复，“恢复你的系统而不删除文件”
 ！磁盘格式GPT可能不支持，（菜鸟新手格式化磁盘为MGR丢失全盘数据），winxp/win7不支持UEFI/GPT，win7支持MBR
 ！系统引导修复，linuxGrub多启动，etc。。。
 ```
-``` 
+step3)[系统激活]
+
 品牌机OEM自动激活       （**版权合法**）
+
 kms不支持 旗舰版/零售版 （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
+
 kms支持 大客户版VL      （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
-```
-```
+
+``` 
 win10专业版
 按 win+X 组合键，打开“命令提示符(管理员)（A）”。
 slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
@@ -37,7 +58,7 @@ slmgr -ato
 ```
 
 
-- driver
+- 硬件驱动driver安装
 官网页面/驱动支持
 ```
 联想驱动自动安装工具lenovodm.exe https://think.lenovo.com.cn/support/driver/mainpage.aspx#ThinkPad
@@ -75,18 +96,7 @@ cscript ospp.vbs /sethst:127.0.0.2  （KMS服务器地址，不可用）
 cscript ospp.vbs /act
 ```
 
-- windows修复
 
-```
-+驱动/注册表 ：
-系统还原点
-
-+系统文件修复：
-360系统重装大师？ 保留用户文件？
-使用sfc和dism命令修复系统有哪些区别？
-热备份，热修复，dism，dism++
-。。。
-```
 
 - windows 系统备份映像
 ```
@@ -113,7 +123,6 @@ https://jingyan.baidu.com/article/64d05a0276f53fde55f73bcf.html
 这是旧系统的备份，便于今后有需要找回旧系统文件，这个可以删除，对C盘进行磁盘清理然后选择删除就行。
 ```
 
-
 - 软件/防火墙/用户权限
 ```
 管理员账号密码/UAC/sandboxie
@@ -125,33 +134,30 @@ https://jingyan.baidu.com/article/64d05a0276f53fde55f73bcf.html
 后台服务项目 -禁止
 windows搜索路径-删appdata
 windows自动更新- 禁用？
+```
 
-
-
-===============
-
-
-【微软windows签名认证】 签名，证书，正版，原版。
-*HashMyfile 文件指纹检查
-
-WEPE 工具箱   http://www.wepe.com.cn/
-MS-Win7/8/10 操作系统 https://msdn.itellyou.cn/ （大客户版KMS/OEM主板激活，迅雷下载，hash检查）
-
-MS-Office  应用程序 https://msdn.itellyou.cn/   （大客户版KMS激活，迅雷下载，hash检查）
-LibreOffice  开源，兼容 https://zh-cn.libreoffice.org/
-
+- 常用软件
+```
+========================================================
+软件签名，证书，正版，原版 【windows安装程序签名】  【*HashMyfile 文件指纹检查md5/sha1/sha256】
+网站白名单：https://alternativeto.net/software/libreoffice/
+网站黑名单：sourceforge/百度/华军/（sina部分）
+========================================================
+---------------------
 ！杀毒软件：
 win7-MS-Essencial
 Win8/10内置
 *火绒安全
+--------------------
 
-！黑名单：（普通软件不会要求，UAC管理员权限）
 ------------------------------------------------------------------
+！软件黑名单：（普通软件不会要求，UAC管理员权限）
 360杀毒/360安全卫士   迅雷安装版  美图秀秀 搜狗输入法   xx播放器
 ...（UAC警告，管理员权限）
 ------------------------------------------------------------------
 
-！白名单：（推荐）
+-------------------------------------------------------------------------------
+！软件白名单：（推荐）
 
 PortableApps 绿色软件 https://portableapps.com/
 autohotkey自动化 https://www.autohotkey.com/
@@ -191,15 +197,18 @@ goldendict  http://goldendict.org/
 
 印象笔记/evernote  https://www.yinxiang.com
 OneNote   https://www.onenote.com/Download
+-------------------------------------------------------------------------------
 
-
+-----------------------------------------------
 备选：
 sandboxie 沙盘软件   https://www.sandboxie.com/
 geekuninstaller 卸载工具 https://geekuninstaller.com/
 ccleaner 清理工具  https://www.ccleaner.com/ccleaner
 recuva 误删恢复    https://www.ccleaner.com/recuva
-================
+-----------------------------------------------
 ```
+
+
 
 - 自动登陆/计划任务/电源管理/
 ```
@@ -210,7 +219,18 @@ autopoweroff
 计划任务
 ```
 
-- 存储服务器 smb / ftpd （笔记本光驱位装硬盘）
+- Windows修复
+```
++ 驱动/注册表 ：
+系统还原点
+
++ 系统文件修复：
+360系统重装大师？ 保留用户文件？
+使用sfc和dism命令修复系统有哪些区别？
+热备份，热修复，dism，dism++
+```
+
+- 存储服务器 smb / ftpd
 ```
 win存储池/局域网文件共享
 小米路由器文件共享/远程读写
