@@ -29,5 +29,4 @@ https://ankiweb.net/shared/decks/chinese
 - LaTex排版
 - 版本管理（git/sparkleshare/word）
 
-- 理解版权协议FLOSS/GPL/MIT/CopyRight
-- *使用FLOSS软件/Linux
+- 理解版权协议FLOSS/GPL/MIT/CopyRight (*FLOSS/Linux*)
