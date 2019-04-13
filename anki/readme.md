@@ -9,7 +9,7 @@ https://ankiweb.net/shared/decks/chinese
 
 - 简易使用Office（word格式，excel求和，ppt简化）
 - 搜索引擎/维基百科
-- *双拼（小鹤）
+- *双拼（RIME小鹤）
 
 ### 中学生应该学会的技能
 
