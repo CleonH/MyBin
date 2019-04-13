@@ -23,7 +23,7 @@ https://ankiweb.net/shared/decks/chinese
 ### 大学生应该学会的技能
 
 - python替代word，excel，处理数据/文本（vim/sublime快捷键，正则）
-- *R/Matlab计算
+- *计算软件（excel函数/R统计/Matlab模拟）
 
 - 学术搜索/谷歌
 - LaTex排版
