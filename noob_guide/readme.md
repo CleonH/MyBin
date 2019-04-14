@@ -7,7 +7,7 @@
 
 Q0: 用途？tablet/lattop/nuc/pc/gaming/workstation
 
-Q1: 预算？mac/windows/linux；大小/重量，性能/续航的【tradoff & budget】
+Q1: 预算？mac/windows/linux；大小/重量，性能/续航的【budget】
 
 Q2: 计算强度？内存需求？ Intel generation ; Series M/Desktop/PC AMD/GPU
 
