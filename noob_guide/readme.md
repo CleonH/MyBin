@@ -6,9 +6,13 @@
 - 网络  internet/ethernet/remote-aceess/wifi
 
 Q0: 用途？tablet/lattop/nuc/pc/gaming/workstation
-Q1: 预算？mac/windows/linux；大小/重量/性能/续航的【tradoff & budget】
+
+Q1: 预算？mac/windows/linux；大小/重量，性能/续航的【tradoff & budget】
+
 Q2: 计算强度？内存需求？ Intel generation ; Series M/Desktop/PC AMD/GPU
-Q3: 存储/屏幕/键盘/电池/接口？ 【tradoff & budget】
+
+Q3: （品牌/维修）存储/屏幕/键盘/电池/接口？ 【tradoff & budget】
+
 
 ## windowsPC 安装 
 https://github.com/CleonH/PublicShare/blob/master/noob_guide/windows_PC.md
