@@ -6,20 +6,26 @@
 
 
 ## Editor compare
-GUIEditor - sublime/notepadPP 
+- writer's editor 
+MarkDown - typora
+Manuskript http://theologeek.ch/manuskript
+Latex - 
+
+- GUI Editor - sublime/notepadPP 
 
 https://www.slant.co/versus/44/40/~notepad_vs_sublime-text
 
-terminal - vim/nano/
+- terminal editor - vim/nano/
 
 ## IDE compare
-LightIDE - VScode/Atom/GEANY
+- Light IDE - VScode/Atom/GEANY
 
 https://www.slant.co/versus/5982/48/~visual-studio-code_vs_atom
 
-SDK-IDE 
+- SDK & IDE 
 
 Intellij | VSstudio | Eclipse | ...|emacs-DIY|
+
 
 ## shorcuts
 VIM vs EMACS
