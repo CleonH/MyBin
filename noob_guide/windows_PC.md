@@ -165,8 +165,10 @@ PortableApps 绿色软件 https://portableapps.com/
 
 autohotkey自动化 https://www.autohotkey.com/
 
-火狐浏览器  https://www.firefox.com.cn
-谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
+*谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
+火狐浏览器 https://www.mozilla.org/en-US/firefox/all/
+firefox 安装包 https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN
+firefox 便携版 https://portableapps.com/apps/internet/firefox_portable
 
 firefox浏览器插件  https://addons.mozilla.org/zh-CN/firefox/
 adblock  https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus/
@@ -191,6 +193,7 @@ AllDup     找重复文件   http://www.alldup.de/en_download_alldup.php
 WinDirStat 找大体积文件 https://windirstat.net/
 
 SumatraPDF阅读器（mobi,epub)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+
 goldendict  http://goldendict.org/
 *欧陆词典  http://dict.eudic.net/
 *有道词典
@@ -200,11 +203,11 @@ OneNote   https://www.onenote.com/Download
 
 aria2-uget  https://ugetdm.com/
 aria2-motrix https://motrix.app/
-qbittorrent
+qbittorrent/utorrent204
 *迅雷绿色版/小米路由器远程下载
 
 Sublime/NotePadPlusPlus 纯文本
-Markdown/LaTex  格式文本
+Markdown/LaTex  格式文本 typora/cTex
 Meld/WinMerge/Kdiff 文本对比
 Git/SparkleShare/MSWord 版本管理
 
