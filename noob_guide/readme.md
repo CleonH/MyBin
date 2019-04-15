@@ -22,6 +22,11 @@ https://github.com/CleonH/PublicShare/blob/master/noob_guide/windows_PC.md
 - 常用软件/流氓软件/安全/漏洞/企业/个人
 - 签名/验证，加密/解密 https://github.com/CleonH/PublicShare/blob/master/noob_guide/hash_gpg.md
 
+## PDF
+pdf压缩工具：Free PDF Compressor
+pdf合并工具：pdftk 
+calibre
+
 ## PC硬件
 https://zhuanlan.zhihu.com/UEFIBlog
 
