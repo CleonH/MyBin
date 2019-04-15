@@ -27,3 +27,13 @@ VIM vs EMACS
 
 ```
 ## Windows Tips
+
+Markdown : Typora/Sublime
+
+Shell : babun/gitbash
+
+GUI: vncviewer/winSCP
+
+Remote: NotepatePP-ftp AHK-CapsLock
+
+
