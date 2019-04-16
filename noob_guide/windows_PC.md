@@ -53,10 +53,10 @@ kms支持 大客户版VL      （**版权非法，大型企业学校勿用，请
 ``` 
 win10专业版
 按 win+X 组合键，打开“命令提示符(管理员)（A）”。
-slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr -skms kms.win.server  （KMS服务器地址，不可用）
-slmgr -ato
-键入slmgr -xpr，回车可查看到期时间，激活有效时间为半年。这不是永久激活，需要通过正规渠道购买激活密钥激活。
+slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX （try another KEY；key MUST be comp with os version；using “wmic os get caption” to get os verdion if you dont konw）
+slmgr -skms kms.win.server  （KMS server 服务器地址，不可用；try another）
+slmgr -ato   （TRY TO ACTIVE；IF SUCCESS键入slmgr -xpr，回车可查看到期时间；IF NOT，repeat try another key or server）
+激活有效时间为半年。这不是永久激活，需要通过正规渠道购买激活密钥激活。
 ```
 
 
@@ -81,7 +81,7 @@ slmgr -ato
 
 【1】 开源替代 LibreOffice_portable （格式兼容很完美，开源无广告，portable版本免安装）
 
-主页 https://zh-cn.libreoffice.org 
+主页 htdvytps://zh-cn.libreoffice.org 
 
 中科大镜像站 http://mirrors.ustc.edu.cn/tdf/libreoffice/stable/
 
