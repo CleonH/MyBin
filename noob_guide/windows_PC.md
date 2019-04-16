@@ -93,9 +93,10 @@ slmgr -ato   （TRY TO ACTIVE；IF SUCCESS键入slmgr -xpr，回车可查看到�
 
 微软Office安装光盘，迅雷ed2k下载，md5指纹检查
 ```
-cd to %office15% 
+打开word选项,找到激活页,输入密钥
+win+X；CMD（admin）；cd to %office15安装目录%  
 cscript ospp.vbs /sethst:127.0.0.2  （KMS服务器地址，不可用）
-cscript ospp.vbs /act
+cscript ospp.vbs /act （尝试激活,成功有提示success,失败则试其他密钥或服务器）
 ```
 
 
