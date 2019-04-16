@@ -7,9 +7,12 @@
 
 ## Editor compare
 - writer's editor 
-MarkDown - typora
+
+MarkDown - typora/gridea
+
 Manuskript http://theologeek.ch/manuskript
-Latex - 
+
+Latex - cTex
 
 - GUI Editor - sublime/notepadPP 
 
