@@ -51,13 +51,14 @@ kms不支持 旗舰版/零售版 （**版权非法，大型企业学校勿用，
 kms支持 大客户版VL      （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
 
 ``` 
-win10专业版
+win10专业版（KMS服务器激活）
 按 win+X 组合键，打开“命令提示符(管理员)（A）”。
-slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX （try another KEY；key MUST be comp with os version；using “wmic os get caption” to get os verdion if you dont konw）
-slmgr -skms kms.win.server  （KMS server 服务器地址，不可用；try another）
-slmgr -ato   （TRY TO ACTIVE；IF SUCCESS键入slmgr -xpr，回车可查看到期时间；IF NOT，repeat try another key or server）
+slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX （密钥对应版本;“wmic os get caption” to get os verdion if you dont konw）
+slmgr -skms kms.win.server               （KMS server 服务器地址，不可用；需要找到可用的服务器）
+slmgr -ato   （尝试激活；IF FAIL，重复以上两步，输入其他密钥或地址；IF SUCCESS键入slmgr -xpr，回车可查看到期时间；）
 激活有效时间为半年。这不是永久激活，需要通过正规渠道购买激活密钥激活。
 ```
+**网上可下载到 KMS自动激活软件，需要关闭系统杀毒软件。此类软件大多包含木马，不推荐此法。**
 
 
 - 硬件驱动driver安装
@@ -102,12 +103,14 @@ cscript ospp.vbs /act （尝试激活,成功有提示success,失败则试其他�
 
 - windows 系统备份映像
 ```
-wim/gho 原厂一键修复的备份映像文件，不要删除
-WEPE恢复备份工具，菜鸟新手恢复分区，注意盘符，小心丢失数据
-菜鸟请用win8/10自带系统恢复，“恢复你的系统而不删除文件”
+方法1）控制面板-文件历史-系统映像备份
+方法2）wim/gho 原厂一键修复的备份映像文件，不要删除
+方法3）菜鸟请用win8/10自带系统恢复，“恢复你的系统而不删除文件”
+方法4）WEPE恢复备份工具，菜鸟新手恢复分区，注意盘符，小心丢失数据
 ```
 
 - windows8/10 还原系统而不删除你的文件
+**出厂买来的系统一般自带此功能，自己安装的系统按以下方法安装**
 https://jingyan.baidu.com/article/64d05a0276f53fde55f73bcf.html
 
 ```
@@ -140,12 +143,22 @@ windows自动更新- 禁用？
 ```
 
 - 常用软件
+**纯办公用PC，不希望电脑任何卡顿，对系统安全要求高的软件规范：**
+**1）Win内置权限管理UAC，不要关闭。除了个别“可信”（杀毒，输入法）软件外，拒绝【任何】要求管理员权限的软件”**
+**2）使用【正版软件】，在正版软件的【官方网站】下载，不使用【破解程序】。
+**3）推荐使用【开源软件】【绿色软件】，避免在注册表写入太多信息或运行大量后台服务。
+     推荐使用【沙盘软件】 sandboxie  https://www.sandboxie.com/ 安装【不确定来源的软件】，或很少运行的软件，比如【游戏程序】** 
+**4）搜索，学习以下内容
 ```
-========================================================
 软件签名，证书，正版，原版 【windows安装程序签名】  【*HashMyfile 文件指纹检查md5/sha1/sha256】
 网站白名单：https://alternativeto.net/software/libreoffice/
 网站黑名单：sourceforge/百度/华军/（sina部分）
 ========================================================
+```
+```
+
+AUTOHOTKEY 自动脚本图形工具 https://www.autohotkey.com/
+
 ---------------------
 ！杀毒软件：
 win7-MS-Essencial
@@ -161,13 +174,12 @@ Win8/10内置
 
 -------------------------------------------------------------------------------
 ！软件白名单：（推荐）
-win8/10 微软自带uwp商店 QQ/微信/百度云 （国产软件尽量用UWP版本）
+win8/10 微软自带uwp商店 QQ/微信/百度云 （国产软件尽量用UWP版本，UWP商店网站可能被屏蔽，火狐有微信网页版插件）
 PortableApps 绿色软件 https://portableapps.com/
+------------------------------------------------------------------------------
 
-autohotkey自动化 https://www.autohotkey.com/
-
-*谷歌浏览器  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
-火狐浏览器 https://www.mozilla.org/en-US/firefox/all/
+*谷歌浏览器（推荐，但官网可能被屏蔽）  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
+(推荐)火狐浏览器 https://www.mozilla.org/en-US/firefox/all/
 firefox 安装包 https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN
 firefox 便携版 https://portableapps.com/apps/internet/firefox_portable
 
@@ -177,23 +189,24 @@ OneTab   https://addons.mozilla.org/zh-CN/firefox/addon/onetab/
 印象剪藏  https://addons.mozilla.org/zh-CN/firefox/addon/evernote-web-clipper/
 
 
-win微软内置输入法 （词库https://github.com/studyzy/imewlconverter）
-rime小狼毫输入法  https://rime.im/ （Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93）
-*qq输入法/必应输入法/谷歌输入法  http://qq.pinyin.cn/ （qq拼音词库 https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win）
+* 微软输入法 （系统内置）（词库https://github.com/studyzy/imewlconverter）
+* 常见输入法 （商业软件，安装简单，选用少插件，不占后台内存）
+qq输入法/必应输入法/谷歌输入法/  http://qq.pinyin.cn/ （qq拼音词库 https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win）
+* rime小狼毫输入法（开源，安全，文件配置） https://rime.im/ （Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93）
 
 VLC播放器   https://www.videolan.org/
 *qq播放器   http://player.qq.com/
 
-7zip解压缩（rar/zip/7z格式绑定） https://sparanoid.com/lab/7z/    https://www.7-zip.org/
+7zip解压缩（扩展名绑定rar/zip/7z格式，抛弃使用RAR格式，推荐ZIP格式） https://sparanoid.com/lab/7z/    https://www.7-zip.org/
 *bandzip解压缩  https://www.bandisoft.com/bandizip/
 
-qdir 多窗文件管理器 http://www.softwareok.com/?Download=Q-Dir
-Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
+（办公必备）qdir 多窗文件管理器 http://www.softwareok.com/?Download=Q-Dir
+（日常必备）Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
 
 AllDup     找重复文件   http://www.alldup.de/en_download_alldup.php
 WinDirStat 找大体积文件 https://windirstat.net/
 
-SumatraPDF阅读器（mobi,epub)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+（推荐）SumatraPDF阅读器（绑定pdf,mobi,epub格式)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 
 goldendict  http://goldendict.org/
 *欧陆词典  http://dict.eudic.net/
@@ -202,22 +215,27 @@ goldendict  http://goldendict.org/
 印象笔记/evernote  https://www.yinxiang.com
 OneNote   https://www.onenote.com/Download
 
+下载软件：（绿色版，避免安装，防止后台运行）
 aria2-uget  https://ugetdm.com/
 aria2-motrix https://motrix.app/
 qbittorrent/utorrent204
 *迅雷绿色版/小米路由器远程下载
 
+文本处理：
 Sublime/NotePadPlusPlus 纯文本
-Markdown/LaTex  格式文本 typora/cTex
+Markdown/LaTex  格式文本 typora/gridea/cTex
 Meld/WinMerge/Kdiff 文本对比
 Git/SparkleShare/MSWord 版本管理
+
+！数字办公
+python编程让繁琐任务自动化  https://book.douban.com/subject/26836700/
+编程使用数据来源 excel函数/access数据库  
 
 -------------------------------------------------------------------------------
 
 -----------------------------------------------
 
 备选：
-sandboxie 沙盘软件   https://www.sandboxie.com/
 geekuninstaller 卸载工具 https://geekuninstaller.com/
 ccleaner 清理工具  https://www.ccleaner.com/ccleaner
 recuva 误删恢复    https://www.ccleaner.com/recuva
