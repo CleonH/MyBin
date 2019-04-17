@@ -69,9 +69,9 @@ win10专业版（KMS服务器激活）
 联想驱动自动安装工具lenovodm.exe https://think.lenovo.com.cn/support/driver/mainpage.aspx#ThinkPad
 华硕asusLiveUpdate https://www.asus.com.cn/support/Download-Center/ 
 
-检查驱动安装完整：
-管理员权限，运行compmgmt.msc，设备管理器，驱动安装检查顺序 【主板/网卡 -> intel集成显卡 -> 其他】
-(winxp/win7无免驱动网卡时，先查型号，到官网下载驱动u盘拷贝。  官网驱动找不到，驱动精灵网卡集成版）
+检查驱动安装完整(重要）：
+管理员权限，运行compmgmt.msc，设备管理器，驱动安装检查顺序 【主板/网卡 -> intel集成显卡 -> 其他 】
+如果网卡系统不是winxp/win7无免驱时，先查型号，到官网下载驱动u盘拷贝。  官网驱动找不到，驱动精灵网卡集成版（不推荐）
 
 ！驱动安装好后，备份映像
 ！备份映像好后，开启系统还原点
@@ -147,27 +147,20 @@ windows自动更新- 禁用？
 - 常用软件
 **纯办公用PC，不希望电脑任何卡顿，对系统安全要求高的软件规范：**
 **1）Win内置权限管理UAC，不要关闭。除了个别“可信”（杀毒，输入法）软件外，拒绝【任何】要求管理员权限的软件”**
-**2）使用【正版软件】，在正版软件的【官方网站】下载，不使用【破解程序】。
+
+**2）使用【正版软件】，在正版软件的【官方网站】下载，不使用【破解程序】。**
+
 **3）推荐使用【开源软件】【绿色软件】，避免在注册表写入太多信息或运行大量后台服务。
      推荐使用【沙盘软件】 sandboxie  https://www.sandboxie.com/ 安装【不确定来源的软件】，或很少运行的软件，比如【游戏程序】** 
-**4）搜索，学习以下内容
+
+**4）搜索，学习以下内容**
 ```
-软件签名，证书，正版，原版 【windows安装程序签名】  【*HashMyfile 文件指纹检查md5/sha1/sha256】
+软件签名，证书，正版，原版 【windows安装程序签名】 
+【*HashMyfile 文件指纹检查md5/sha1/sha256】
 网站白名单：https://alternativeto.net/software/libreoffice/
 网站黑名单：sourceforge/百度/华军/（sina部分）
-========================================================
 ```
 ```
-
-AUTOHOTKEY 自动脚本图形工具 https://www.autohotkey.com/
-
----------------------
-！杀毒软件：
-win7-MS-Essencial
-Win8/10内置
-*火绒安全
---------------------
-
 ------------------------------------------------------------------
 ！软件黑名单：（普通软件不会要求，UAC管理员权限）
 360杀毒/360安全卫士   迅雷安装版  美图秀秀 搜狗输入法   xx播放器
@@ -179,6 +172,21 @@ Win8/10内置
 win8/10 微软自带uwp商店 QQ/微信/百度云 （国产软件尽量用UWP版本，UWP商店网站可能被屏蔽，火狐有微信网页版插件）
 PortableApps 绿色软件 https://portableapps.com/
 ------------------------------------------------------------------------------
+```
+推荐/常用软件
+```
+
+AUTOHOTKEY 自动脚本图形工具 https://www.autohotkey.com/
+
+---------------------
+！杀毒软件：
+win7-MS-Essencial
+Win8/10内置
+*火绒安全
+!不要安装“任何”安卓手机“管理”软件
+--------------------
+
+
 
 *谷歌浏览器（推荐，但官网可能被屏蔽）  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
 (推荐)火狐浏览器 https://www.mozilla.org/en-US/firefox/all/
@@ -192,15 +200,17 @@ OneTab   https://addons.mozilla.org/zh-CN/firefox/addon/onetab/
 
 
 * 微软输入法 （系统内置）（词库https://github.com/studyzy/imewlconverter）
-* 常见输入法 （商业软件，安装简单，选用少插件，不占后台内存）
-qq输入法/必应输入法/谷歌输入法/  http://qq.pinyin.cn/ （qq拼音词库 https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win）
-* rime小狼毫输入法（开源，安全，文件配置） https://rime.im/ （Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93）
+* 小狼毫输入法（RIME开源，安全，文件配置） https://rime.im/
+* 常见输入法 （商业软件，安装简单。需要挑选，无木马，插件少，不占后台内存的版本）qq输入法/必应输入法/谷歌输入法/  http://qq.pinyin.cn/ 
+（词库：qq拼音词库 https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win）
+（词库：Rime导入搜狗词库  https://www.jianshu.com/p/300bbe1602d4   https://www.cnblogs.com/frederichchen/p/5074689.html https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%B0%8F%E7%8B%BC%E8%B1%AA%20%E8%AF%8D%E5%BA%93）
 
 VLC播放器   https://www.videolan.org/
 *qq播放器   http://player.qq.com/
 
 7zip解压缩（扩展名绑定rar/zip/7z格式，抛弃使用RAR格式，推荐ZIP格式） https://sparanoid.com/lab/7z/    https://www.7-zip.org/
 *bandzip解压缩  https://www.bandisoft.com/bandizip/
+
 
 （办公必备）qdir 多窗文件管理器 http://www.softwareok.com/?Download=Q-Dir
 （日常必备）Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
@@ -250,13 +260,15 @@ recuva 误删恢复    https://www.ccleaner.com/recuva
 
 
 
-- 自动登陆/计划任务/电源管理/
+- 自动登陆账户/计划任务/电源管理/
+
+日常使用笔记本不需要手动关机，配置好【电源管理】屏幕/睡眠/休眠/关机 的时间即可
 ```
-control userpasswords2
-autohotkey
+账户管理 【控制面板】
+自动登陆 control userpasswords2
 autopoweroff
-后台服务
-计划任务
+开机启动/后台服务 【任务管理器】
+计划任务/定时任务 【task scheduler】
 ```
 
 - Windows修复
