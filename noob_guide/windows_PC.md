@@ -52,10 +52,12 @@ kms支持 大客户版VL      （**版权非法，大型企业学校勿用，请
 
 ``` 
 win10专业版（KMS服务器激活）
-按 win+X 组合键，打开“命令提示符(管理员)（A）”。
-slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX （密钥对应版本;“wmic os get caption” to get os verdion if you dont konw）
-slmgr -skms kms.win.server               （KMS server 服务器地址，不可用；需要找到可用的服务器）
-slmgr -ato   （尝试激活；IF FAIL，重复以上两步，输入其他密钥或地址；IF SUCCESS键入slmgr -xpr，回车可查看到期时间；）
+按 win+X 组合键，打开“命令提示符(管理员)（A）”，输入三个命令（注意空格符号）
+
+步骤一：slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX （密钥对应版本;输入wmic os get caption可查版本）
+步骤二：slmgr -skms kms.win.server               （KMS server 服务器地址，不可用；需要找到可用的服务器）
+步骤三：slmgr -ato   （尝试激活。IF FAIL，重复以上两步，输入其他密钥或地址；IF SUCCESS键入slmgr -xpr，回车可查看到期时间）
+
 激活有效时间为半年。这不是永久激活，需要通过正规渠道购买激活密钥激活。
 ```
 **网上可下载到 KMS自动激活软件，需要关闭系统杀毒软件。此类软件大多包含木马，不推荐此法。**
@@ -94,10 +96,10 @@ slmgr -ato   （尝试激活；IF FAIL，重复以上两步，输入其他密钥
 
 微软Office安装光盘，迅雷ed2k下载，md5指纹检查
 ```
-打开word选项,找到激活页,输入密钥
-win+X；CMD（admin）；cd to %office15安装目录%  
+步骤一：打开WORD-选项,找到激活页,输入密钥
+步骤二：win+X；CMD（admin）；cd 切换到 %office15安装目录%  
 cscript ospp.vbs /sethst:127.0.0.2  （KMS服务器地址，不可用）
-cscript ospp.vbs /act （尝试激活,成功有提示success,失败则试其他密钥或服务器）
+步骤三：cscript ospp.vbs /act        （尝试激活,成功有提示success。失败，重复前两步，尝试其他密钥或服务器）
 ```
 
 
