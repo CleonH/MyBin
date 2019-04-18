@@ -245,7 +245,7 @@ Git/SparkleShare/MSWord 版本管理
 
 ！数字办公
 python编程让繁琐任务自动化  https://book.douban.com/subject/26836700/
-编程使用数据来源 excel函数/access数据库  
+vba编程使用数据 excel函数/access数据库/sqlite-odbc/QLiteForExcel.zip
 
 -------------------------------------------------------------------------------
 
