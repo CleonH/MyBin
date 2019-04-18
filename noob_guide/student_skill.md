@@ -43,7 +43,7 @@ vslookup
 - 数据库Access
 ```
 MSOffice-Access
-excel引用access数据库
+excel引用access数据库ADODB.conn{Set cnn = New ADODB.Connection ConnectionString = "Provider=Microsoft.Jet.Oledb.4.0;"}
 python引用Access数据库
 ```
 - 数据库sqlite
