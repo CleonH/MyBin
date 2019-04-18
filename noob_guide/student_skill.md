@@ -24,3 +24,32 @@
 - 版本管理（git/sparkleshare/word）
 
 - 理解版权协议FLOSS/GPL/MIT/CopyRight (*FLOSS/Linux*)
+
+
+### Office办公技能
+*开源软件LibreOffice*
+- 表格EXCEL函数
+```
+vslookup
+```
+
+- EXCELL-VBA编程
+```
+语言数据类型/判断句/功能引用
+
+定位/属性/取值/赋值/打印/发送
+```
+
+- 数据库Access
+```
+MSOffice-Access
+excel引用access数据库
+python引用Access数据库
+```
+- 数据库sqlite
+```
+sqlite      https://sqlitestudio.pl/index.rvt?act=download
+libreoffice https://wiki.openoffice.org/wiki/Documentation/How_Tos/Using_SQLite_With_OpenOffice.org
+```
+
+
