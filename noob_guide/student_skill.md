@@ -17,6 +17,7 @@
 ### 大学生应该学会的技能
 
 - python替代word，excel，处理数据/文本（vim/sublime快捷键，正则）
+<<Python编程快速上手  让繁琐工作自动化.pdf>>
 - *计算软件（excel函数/R统计/Matlab模拟）
 
 - 学术搜索/谷歌
@@ -27,6 +28,7 @@
 
 
 ### Office办公技能
+
 *开源软件 LibreOffice*
 *网页应用 WebOffice* OnlyOffice/点聚office
 - 表格EXCEL函数
@@ -41,7 +43,7 @@ vslookup
 定位/属性/取值/赋值/打印/发送
 ```
 
-POWERBI 替代数据库
+- POWERBI 替代数据库
 ```
 PowerBI = Query + Viewer + Report
 
@@ -66,4 +68,5 @@ sqlite      https://sqlitestudio.pl/index.rvt?act=download
 libreoffice https://wiki.openoffice.org/wiki/Documentation/How_Tos/Using_SQLite_With_OpenOffice.org
 ```
 
-
+- Python接口Sqlite
+Python编程快速上手——让繁琐工作自动化.pdf
