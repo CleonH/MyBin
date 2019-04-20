@@ -54,7 +54,7 @@ SourceTables [(data update x-> T1, or modified T1), T2,T3 ...]==> (modify)power 
 把Excel-tables当成数据库的表格，把powerBI当成数据库的sql语言：
 优点：几乎免去编程语言做接口，直接用查询和函数；
 缺点：手动sql操作，修改数据源或改为新的数据源更新。
-？交互数据更新：PowerQuery ~ ExcelTable
+？交互数据更新：PowerQuery ~ ExcelTable  -------Solution: Python交互
 ```
 
 - 数据库Access
