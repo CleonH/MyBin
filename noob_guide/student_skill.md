@@ -16,8 +16,9 @@
 
 ### 大学生应该学会的技能
 
-- python替代word，excel，处理数据/文本（vim/sublime快捷键，正则）
-<<Python编程快速上手  让繁琐工作自动化.pdf>>
+- python替代word，excel，处理数据/文本
+- vim/sublime快捷键
+- 正则 <<Python编程快速上手(Chp6-7-8)>>
 - *计算软件（excel函数/R统计/Matlab模拟）
 
 - 学术搜索/谷歌
