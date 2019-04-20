@@ -69,5 +69,8 @@ sqlite      https://sqlitestudio.pl/index.rvt?act=download
 libreoffice https://wiki.openoffice.org/wiki/Documentation/How_Tos/Using_SQLite_With_OpenOffice.org
 ```
 
-- Python接口Sqlite
-Python编程快速上手——让繁琐工作自动化.pdf
+- Python/AutoHotKey
+
+ Python编程快速上手——让繁琐工作自动化.pdf
+
+ AutoHotKey - 改键, 模拟键鼠GUI, 录屏动作
