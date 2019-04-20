@@ -18,6 +18,12 @@ Q3: （品牌/维修）存储/屏幕/键盘/电池/接口？ 【tradoff & budget
 https://github.com/CleonH/PublicShare/blob/master/noob_guide/windows_PC.md
 
 ## windowsPC 软件
+系统补丁
+dot组件
+
+Chocolatey https://chocolatey.org/packages?sortOrder=package-download-count&page=3&prerelease=False&moderatorQueue=False
+python3 （系统补丁，依赖）  Anaconda  https://mirrors.sjtug.sjtu.edu.cn/anaconda/
+
 - 自由软件/开源软件/商业软件/免费软件 软件开发商/持续维护/易用性/平台费用
 - 常用软件/流氓软件/安全/漏洞/企业/个人
 - 签名/验证，加密/解密 https://github.com/CleonH/PublicShare/blob/master/noob_guide/hash_gpg.md
