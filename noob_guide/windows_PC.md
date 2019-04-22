@@ -66,6 +66,7 @@ win10专业版（KMS服务器激活）
 - 硬件驱动driver安装
 官网页面/驱动支持
 ```
+INTEL内置显卡驱动会被winUPDATE自动安装，可以ban独立显卡。首选Intel.com-driver
 联想驱动自动安装工具lenovodm.exe https://think.lenovo.com.cn/support/driver/mainpage.aspx#ThinkPad
 华硕asusLiveUpdate https://www.asus.com.cn/support/Download-Center/ 
 
