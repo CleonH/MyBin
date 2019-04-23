@@ -20,11 +20,11 @@ WEPE 工具箱   http://www.wepe.com.cn/
 
 step1)[光盘下载]
 ```
-[方法一] ed2k链接
+[方法一] ed2k链接 下载大客户版 （容易激活）
 MS-Win7/8/10 操作系统 https://msdn.itellyou.cn/ （vl大客户版KMS/OEM主板激活，迅雷ed2k下载，hash检查）
 MS-Office  应用程序 https://msdn.itellyou.cn/   （vol大客户版KMS激活，迅雷ed2k下载，hash检查）
 
-[方法二] windows8/10 微软官网 
+[方法二] windows8/10 微软官网 （零售版，下载方便）
 https://www.microsoft.com/zh-cn/software-download/windows8ISO
 https://www.microsoft.com/zh-cn/software-download/windows10
 ```
@@ -33,8 +33,8 @@ step2)[安装系统]
 ```
 [方法一]WEPE下直接挂载光盘安装
 [方法二]微软官网 MediaCreationTool 使用该工具创建安装介质（USB/光盘），以在其他电脑上安装 Windows 10
-[方法三]*ultraISO刻录，添加启动引导，主板启动u盘安装
-[方法四]rufus/yumi_multiboot/unetbootin/etcher
+[*方法三]ultraISO刻录，添加启动引导，主板启动u盘安装
+[*方法四]rufus/yumi_multiboot/unetbootin/etcher
 
 【警告】
 ！菜鸟新手请勿 格式化磁盘，增删分区，修个分区表，备份还原。
@@ -48,19 +48,24 @@ step3)[系统激活]
 
 kms不支持 旗舰版/零售版 （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
 
-kms支持 大客户版VL      （**版权非法，大型企业学校勿用，请询问企业学校管理员**）
+kms支持 大客户(光盘名VL)（**版权非法，大型企业学校勿用，请询问企业学校管理员**）
+
 
 ``` 
-win10专业版（KMS服务器激活）
+零散坑~ 本站上线KMS服务~一句命令激活windows/office
+**网上可下载到 KMS自动激活软件，需要关闭系统杀毒软件。此类软件大多包含木马，不推荐此法。**
+
+
 按 win+X 组合键，打开“命令提示符(管理员)（A）”，输入三个命令（注意空格符号）
 
-步骤一：slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX （密钥对应版本;输入wmic os get caption可查版本）
-步骤二：slmgr -skms kms.win.server               （KMS server 服务器地址，不可用；需要找到可用的服务器）
-步骤三：slmgr -ato   （尝试激活。IF FAIL，重复以上两步，输入其他密钥或地址；IF SUCCESS键入slmgr -xpr，回车可查看到期时间）
+步骤一：slmgr -skms kms.win.server （KMS server 服务器地址，不可用；需要找到可用的服务器）
+步骤二：slmgr -ato   （尝试激活。IF FAIL，重复以上两步，输入其他密钥或地址；IF SUCCESS键入slmgr -xpr，回车可查看到期时间）
 
+*VL版本的镜像一般内置GVLK key，用于kms激活。如果你手动输过其他key，这个内置的key就会被替换掉，这时候如果你想用kms，就需要把GVLK key输回去。
+*例如 win10专业版（KMS服务器激活）slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 
+*同一光盘用不同密钥安装可能安装成不同版本（OEM/PRO/Retail),在CMD输入wmic os get caption查所安装的版本
 激活有效时间为半年。这不是永久激活，需要通过正规渠道购买激活密钥激活。
 ```
-**网上可下载到 KMS自动激活软件，需要关闭系统杀毒软件。此类软件大多包含木马，不推荐此法。**
 
 
 - 硬件驱动driver安装
@@ -306,3 +311,4 @@ FreeNAS/ZFS
 添加FTP站点：打开控制面板-->管理工具-->双击Internet信息服务（IIS）管理器如下图添加FTP站点
 
 ```
+ 
