@@ -1,5 +1,5 @@
 ## linux Terminal
-
+ https://github.com/spencertipping/bashrc-tmux
 
 ## linux Desktop
 
