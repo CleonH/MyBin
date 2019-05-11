@@ -66,6 +66,9 @@ xfwm4-tweaks-settings
 ```
 - keyboard hotkey
 **Check keymaps in KEYBOARD-LAYOUT. Test keympas by modifing APPLICATION_SHORTCUTS.**
+
+**Windows-manager(xfwm4-settings)-Keyboard-ShowDesktop** remap to Super+D
+
 ```
 xfwm4-settings
 xfce4-keyboard-settings
