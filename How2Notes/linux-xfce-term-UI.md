@@ -69,3 +69,6 @@ xfwm4-tweaks-settings
 xfwm4-settings
 xfce4-keyboard-settings
 ```
+- xfce-superkey
+
+https://github.com/JixunMoe/xfce-superkey
