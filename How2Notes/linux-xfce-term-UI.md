@@ -65,6 +65,7 @@ xfwm4-tweaks-settings
 
 ```
 - keyboard hotkey
+**Check keymaps in KEYBOARD-LAYOUT. Test keympas by modifing APPLICATION_SHORTCUTS.**
 ```
 xfwm4-settings
 xfce4-keyboard-settings
