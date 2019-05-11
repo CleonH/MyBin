@@ -3,6 +3,9 @@
 keyboard type config; touchpad dirver ; etc
 
 
+
+
+
 - $ xfwm4-setting  (openbox-setting)
 ```
 minimize
@@ -11,6 +14,8 @@ close
 ```
 
 - $ xfce4-keyboard-settings 
+**keyboard - layout** --> check keymap  (try modify application-shortcut keybinding)
+
 ```
 xfce4-terminal                         |  (Super+T)
 xfce4-terminal --drop-down             |  (Super+R)
