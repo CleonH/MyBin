@@ -298,7 +298,7 @@ autopoweroff
 ```
 
 
-- 存储服务器 smb / ftpd
+- 存储服务器 smb / ftpd / filebrowser
 ```
 win存储池/局域网文件共享
 小米路由器文件共享/远程读写
