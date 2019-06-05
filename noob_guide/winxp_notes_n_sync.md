@@ -8,7 +8,7 @@
 http://qq.pinyin.cn/
 
 - 360 系统重装大师 
-http://renew.360.cn/ 重新安装C盘的win系统 支持xp，win7 
+http://renew.360.cn/ 重装C盘的系统 支持xp，win7 
 
 - Sumatra PDF – 开源 PDF 阅读器
 
