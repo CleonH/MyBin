@@ -43,7 +43,7 @@ mac端：https://www.weiyun.com/download.html#mac
 
 ## evernote 印象笔记
 
-桌面版最新版不支持winxp
+**桌面版最新版不支持winxp**
 https://www.zhihu.com/question/266094628
 
 - 方法一：下载桌面客户端winxp旧版
@@ -56,38 +56,38 @@ http://cdn1.evernote.com/win6/public/Evernote_6.5.4.4720.exe
 
 
 
-### 方法二：evernote网页版 - firefox 
-```
+### 方法二：evernote网页版+插件  360chrome浏览器-极速版/firefox火狐浏览器
+
+#### 360"极速版"浏览器 
+
+pc端下载地址 https://browser.360.cn/ee/
+
+mac端下载： https://browser.360.cn/ee/mac/index.html
+
+插件搜索： 印象笔记
+https://ext.chrome.360.cn/webstore/category/%E5%B0%8F%E5%B7%A5%E5%85%B7/%E7%BC%96%E8%BE%91%E6%8E%A8%E8%8D%90
+https://ext.chrome.360.cn/webstore/search/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0
+
+
+
+#### firefox 
+**Firefox52.90版是最后一个支持 Windows XP 和 Windows Vista 的升级版）**
 下载安装火狐 https://www.firefox.com.cn/ 
 安装evernote插件  https://addons.mozilla.org/
 点击evernote图标登录，开始使用。一个是网页客户端，一个是网页剪报工具
 ```
-
-#### firefox 
-
 官方中文最新版下载地址
-
 https://download-ssl.firefox.com.cn/releases-sha2/full/67.0/zh-CN/Firefox-full-latest.exe
-
-新浪旧版火狐下载地址（旧版可能出现插件不适配的问题）
-
-http://down.tech.sina.com.cn/content/1461.html
-
+新浪旧版火狐下载地址（旧版可能出现插件不适配的问题
+http://down.tech.sina.com.cn/page/1528.html
 #### firefox- plugin 插件安装方法
-
 https://jingyan.baidu.com/article/1709ad804dca5a4634c4f014.html
-
 ##### plugin  插件搜索evernote
-
 印象笔记网页版：
-
 https://addons.mozilla.org/zh-CN/firefox/addon/evernote-pinned/?src=search
-
 印象笔记剪报工具：
-
 https://addons.mozilla.org/zh-CN/firefox/addon/evernote-web-clipper/?src=search
-
-
+```
 
 ## 知网 
 
