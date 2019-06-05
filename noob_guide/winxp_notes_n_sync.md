@@ -26,7 +26,7 @@ https://support.office.com/zh-cn/article/onedrive-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6
 ### [腾讯微云] OneDrive替代  
  
 
-下载地址：https://www.weiyun.com/download.html  包含（网页端 |桌面客户端  |同步助手|移动APP）
+下载地址：https://www.weiyun.com/download.html  （包含 网页端 |桌面客户端  |同步助手|移动APP）
 
 mac端使用方法： http://m.hxnews.com/dzbhz/news/kjzx/2018/0910/jrtt_1608514.shtml
 
@@ -56,7 +56,7 @@ http://cdn1.evernote.com/win6/public/Evernote_6.5.4.4720.exe
 
 
 
-### 方法二：evernote网页版+插件  360chrome浏览器-极速版/firefox火狐浏览器
+### 方法二：evernote网页版+插件 
 
 #### 360"极速版"浏览器 
 
@@ -70,11 +70,11 @@ https://ext.chrome.360.cn/webstore/search/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0
 
 
 
-#### firefox 
-**Firefox52.90版是最后一个支持 Windows XP 和 Windows Vista 的升级版）**
-下载安装火狐 https://www.firefox.com.cn/ 
-安装evernote插件  https://addons.mozilla.org/
-点击evernote图标登录，开始使用。一个是网页客户端，一个是网页剪报工具
+#### firefox火狐浏览器
+**Firefox52.90版是最后一个支持 Windows XP 和 Windows Vista 的升级版**
+- 下载安装火狐 https://www.firefox.com.cn/ 
+- 安装evernote插件  https://addons.mozilla.org/
+- 点击evernote图标登录，开始使用。一个是网页客户端，一个是网页剪报工具
 ```
 官方中文最新版下载地址
 https://download-ssl.firefox.com.cn/releases-sha2/full/67.0/zh-CN/Firefox-full-latest.exe
