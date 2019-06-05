@@ -1,4 +1,8 @@
 ##  其他
+- qq拼音输入法
+
+http://qq.pinyin.cn/
+
 - Sumatra PDF – 开源 PDF 阅读器
 
 官网下载 https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
