@@ -4,18 +4,19 @@ https://support.office.com/zh-cn/article/onedrive-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6
 ### [腾讯微云] OneDrive替代  
  
 
-下载地址： 网页端 |桌面客户端  |同步助手|移动APP
+下载地址：https://www.weiyun.com/download.html  包含（网页端 |桌面客户端  |同步助手|移动APP）
 
-https://www.weiyun.com/download.html
+mac端使用方法： http://m.hxnews.com/dzbhz/news/kjzx/2018/0910/jrtt_1608514.shtml
 
+pc端使用方法： https://jingyan.baidu.com/article/e4511cf36d69282b855eaf77.html
 ```
-桌面客户端：浏览“所有”保存在云上的资料，也可以是百度网盘的替代品
+[微云]：浏览“所有”保存在云上的资料，也可以是百度网盘的替代品
 https://dldir1.qq.com/weiyun/WeiyunInstall_Beta_1_3.8.0.2250_20190325_170901_r30941.exe
-同步助手： 选择”本台机器“要同步到云的文件夹，即“部分”同步（首次安装同步时，注意选要同步的文件，不然"默认全部"云文件同步要很久）
-https://dldir1.qq.com/weiyun/WeiyunSyncInstall_Beta_1_3.0.0.293_20190428_100126_r57750.exe
-
-移动APP： 支持iPhone、iPad、Android手机  https://www.weiyun.com/download.html#mobile
-网页端：浏览“所有”保存在云的资料 https://www.weiyun.com/
+[微云同步助手]： 选择”本台机器“要同步到云的文件夹，即“部分”同步（首次安装同步时，注意选要同步的文件，不然"默认全部"云文件同步要很久）
+pc端：https://dldir1.qq.com/weiyun/WeiyunSyncInstall_Beta_1_3.0.0.293_20190428_100126_r57750.exe
+mac端：https://www.weiyun.com/download.html#mac
+[移动APP]： 支持iPhone、iPad、Android手机  https://www.weiyun.com/download.html#mobile
+[网页端]：浏览“所有”保存在云的资料 https://www.weiyun.com/
 ```
 
 ## evernote 
@@ -28,12 +29,12 @@ https://www.zhihu.com/question/266094628
 - 方法二： 使用evernote网页端
 
 
-### 方法一：evernote - winxp
+### 方法一：evernote旧版 - winxp
 http://cdn1.evernote.com/win6/public/Evernote_6.5.4.4720.exe
 
 
 
-### 方法二：evernote - firefox 
+### 方法二：evernote网页版 - firefox 
 ```
 下载安装火狐 https://www.firefox.com.cn/ 
 安装evernote插件  https://addons.mozilla.org/
