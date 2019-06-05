@@ -33,7 +33,7 @@ mac端：https://www.weiyun.com/download.html#mac
 [网页端]：浏览“所有”保存在云的资料 https://www.weiyun.com/
 ```
 
-## evernote 
+## evernote 印象笔记
 
 桌面版最新版不支持winxp
 https://www.zhihu.com/question/266094628
