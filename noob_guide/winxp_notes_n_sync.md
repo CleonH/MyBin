@@ -23,6 +23,14 @@ www1.miwifi.com/miwifi_open.html
 ## OneDrive
 ### Onedrive不支持winxp
 https://support.office.com/zh-cn/article/onedrive-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82-cc0cb2b8-f446-445c-9b52-d3c2627d681e
+
+### **另类的一种在winxp使用onedrive的方法：**
+手机安卓安装onedrive，电脑xp无线/有线打开onedrive文件夹
+（关键：安卓onedrive的路径和是否明文显式存储）
+
+- 无线管理：安卓热点+无线网盘
+- 有线管理：安卓USB接口+USB磁盘驱动器
+
 ### [腾讯微云] OneDrive替代  
  
 
