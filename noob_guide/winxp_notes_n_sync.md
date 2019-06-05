@@ -3,6 +3,10 @@
 
 http://qq.pinyin.cn/
 
+- 360 系统重装大师 
+
+重新安装C盘的win系统 支持xp，win7 http://renew.360.cn/
+
 - Sumatra PDF – 开源 PDF 阅读器
 
 官网下载 https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
