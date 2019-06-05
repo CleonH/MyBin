@@ -1,3 +1,9 @@
+## miwifi-ssh 小米路由器SSH权限
+登录帐号，申请权限  http://d.miwifi.com/rom/ssh 
+```
+www1.miwifi.com/miwifi_open.html
+```
+
 ## OneDrive
 ### Onedrive不支持winxp
 https://support.office.com/zh-cn/article/onedrive-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82-cc0cb2b8-f446-445c-9b52-d3c2627d681e
