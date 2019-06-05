@@ -1,4 +1,12 @@
-## miwifi-ssh 小米路由器SSH权限
+##  其他
+- Sumatra PDF – 开源 PDF 阅读器
+
+官网下载 https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+
+新浪下载 http://down.tech.sina.com.cn/page/35614.html
+
+- miwifi-ssh 小米路由器SSH权限
+
 登录帐号，申请权限  http://d.miwifi.com/rom/ssh 
 ```
 www1.miwifi.com/miwifi_open.html
