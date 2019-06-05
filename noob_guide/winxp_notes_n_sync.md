@@ -1,4 +1,9 @@
 ##  其他
+
+- vga/hdmi 
+ 雷电2转VGA Mac外接屏幕
+ vga切换器 一屏多用
+
 - qq拼音输入法
 
 http://qq.pinyin.cn/
