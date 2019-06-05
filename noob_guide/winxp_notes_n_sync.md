@@ -5,12 +5,10 @@
  vga切换器 一屏多用
 
 - qq拼音输入法
-
 http://qq.pinyin.cn/
 
 - 360 系统重装大师 
-
-重新安装C盘的win系统 支持xp，win7 http://renew.360.cn/
+http://renew.360.cn/ 重新安装C盘的win系统 支持xp，win7 
 
 - Sumatra PDF – 开源 PDF 阅读器
 
@@ -19,7 +17,6 @@ http://qq.pinyin.cn/
 新浪下载 http://down.tech.sina.com.cn/page/35614.html
 
 - miwifi-ssh 小米路由器SSH权限
-
 登录帐号，申请权限  http://d.miwifi.com/rom/ssh 
 ```
 www1.miwifi.com/miwifi_open.html
