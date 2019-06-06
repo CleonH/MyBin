@@ -20,10 +20,11 @@ http://renew.360.cn/ 重装C盘的系统 支持xp，win7
 
 新浪下载 http://down.tech.sina.com.cn/page/35614.html
 
-- miwifi-ssh 小米路由器SSH权限
-登录帐号，申请权限  http://d.miwifi.com/rom/ssh 
+- 微力同步
 ```
-www1.miwifi.com/miwifi_open.html
+miwifi-ssh 小米路由器SSH权限 www1.miwifi.com/miwifi_open.html
+ 登录帐号，申请权限  http://d.miwifi.com/rom/ssh 
+btsync数据传输工具 http://www.verysync.com/
 ```
 
 ## OneDrive
