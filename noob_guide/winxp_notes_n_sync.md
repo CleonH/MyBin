@@ -3,7 +3,11 @@
 - vga/hdmi 
  雷电2转VGA Mac外接屏幕
  vga切换器 一屏多用
-
+- 扩展磁盘
+```
+mac: SD卡套TF卡
+安卓：3选2卡槽 扩展 侧装式卡槽带套
+```
 - qq拼音输入法
 http://qq.pinyin.cn/
 
