@@ -1,8 +1,12 @@
+## linux create windows boot CD
+```
+sudo woeusb -v --device windows-10.iso /dev/sdX
+```
 ## linux Terminal
  https://github.com/spencertipping/bashrc-tmux
 
-## linux Desktop
 
+## linux Desktop
 
 
 ## Editor compare
