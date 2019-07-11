@@ -20,7 +20,8 @@ pacman -S openssh
 
 #git-bash 
 ssh-keygen
-ssh-copy-id 
+ssh-copy-id someone@arch_vm.lan
+ssh-copy-id someone@raspi3.lan
 ```
 
 ## config remote machine
