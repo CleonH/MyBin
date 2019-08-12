@@ -34,3 +34,12 @@ sudo systemctl restart sshd
 /etc/init.d/ssh start
 /etc/init.d/ssh enable
 ```
+
+### archlinux
+
+```
+PATH/TO/ETC/ssh/sshd_config
+[root@alarmpi etc]# echo "PermitRootLogin yes" >> /etc/ssh/sshd_config 
+[root@alarmpi etc]# cat /etc/ssh/sshd_config |grep PermitRoot
+PermitRootLogin yes
+```
