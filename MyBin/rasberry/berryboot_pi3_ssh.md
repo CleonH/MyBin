@@ -4,6 +4,8 @@ edit /sdb2/data/shared/etc/rc.local
 ```
 sudo update-rc.d ssh enable
 sudo systemctl start sshd
+/etc/init.d/ssh start
+/etc/init.d/ssh enable
 ```
 ```
 pi@raspberrypi:~$ df -h
@@ -29,4 +31,6 @@ default  network  rc.local  resolv.conf  timezone
 pi@raspberrypi:/media/pi/berryboot/shared/etc$ cat rc.local
 sudo update-rc.d ssh enable
 sudo systemctl restart sshd
+/etc/init.d/ssh start
+/etc/init.d/ssh enable
 ```
