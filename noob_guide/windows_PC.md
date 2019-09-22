@@ -24,7 +24,7 @@ step1)[光盘下载]
 MS-Win7/8/10 操作系统 https://msdn.itellyou.cn/ （vl大客户版KMS/OEM主板激活，迅雷ed2k下载，hash检查）
 MS-Office  应用程序 https://msdn.itellyou.cn/   （vol大客户版KMS激活，迅雷ed2k下载，hash检查）
 
-[方法二] windows8/10 微软官网 （零售版，下载方便）
+[方法二] windows8/10 微软官网 （零售版，下载方便后台臃肿; 企业版,较难激活,更干净稳定）
 https://www.microsoft.com/zh-cn/software-download/windows8ISO
 https://www.microsoft.com/zh-cn/software-download/windows10
 ```
@@ -225,7 +225,7 @@ VLC播放器   https://www.videolan.org/
 （办公必备）qdir 多窗文件管理器 http://www.softwareok.com/?Download=Q-Dir
 （日常必备）Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
 
-AllDup     找重复文件   http://www.alldup.de/en_download_alldup.php
+AllDup     找重复文件   http://www.alldup.de/en_download_alldup.php (查重 clonespy,duplicate cleaner pro)
 WinDirStat 找大体积文件 https://windirstat.net/
 
 （推荐）SumatraPDF阅读器（绑定pdf,mobi,epub格式)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
@@ -305,6 +305,7 @@ win存储池/局域网文件共享
 群晖NAS文件服务器/远程读写
 FreeNAS/ZFS
 
+Everything - HTTP & FTP server(downlaod only)  
 * filezilla-FTP，防火墙端口/启动服务/管理员密码/用户/路径/tls证书
 * WinServer-FTP服务
 为windows开启ftp功能：控制面板-->程序和功能-->打开或关闭Windows功能
