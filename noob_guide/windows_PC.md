@@ -185,7 +185,12 @@ PortableApps 绿色软件 https://portableapps.com/
 ```
 推荐/常用软件
 ```
+基本Win7界面(固定到任务栏)快捷键 Win+数字 
+同一个软件多进程启动  Shift+点击  Shift+win+数字
+不同应用界面切换 Alt+tab; 同一个应用切换窗口 Ctrl+数字 或 Ctrl+tab,或特定应用内置快捷键
+界面切换增强: VistaSwtitcher/AltTabTer
 
+Launchy 应用启动工具,自定义索引添加目录,可以打开常用目录; 添加插件tasky可以查找标题切换应用窗口
 AUTOHOTKEY 自动脚本图形工具 https://www.autohotkey.com/
 
 ---------------------
@@ -225,8 +230,12 @@ VLC播放器   https://www.videolan.org/
 （办公必备）qdir 多窗文件管理器 http://www.softwareok.com/?Download=Q-Dir
 （日常必备）Everything 查文件  https://www.voidtools.com/zh-cn/downloads/
 
-AllDup     找重复文件   http://www.alldup.de/en_download_alldup.php (查重 clonespy,duplicate cleaner pro)
-WinDirStat 找大体积文件 https://windirstat.net/
+dupeGuru  找重复文件,算法快 https://github.com/arsenetar/dupeguru/
+fdupe.exe 命令行,快算法 https://github.com/jbruchon/jdupes
+AllDup     找重复文件,算法慢,自定义性高   http://www.alldup.de/en_download_alldup.php 
+WinDirStat 找大体积文件, 图形手动(结合everything) https://windirstat.net/
+(其他查重 clonespy,duplicate cleaner pro)
+
 
 （推荐）SumatraPDF阅读器（绑定pdf,mobi,epub格式)  https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 
