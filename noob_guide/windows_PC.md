@@ -193,6 +193,8 @@ PortableApps 绿色软件 https://portableapps.com/
 Launchy 应用启动工具,自定义索引添加目录,可以打开常用目录; 添加插件tasky可以查找标题切换应用窗口
 AUTOHOTKEY 自动脚本图形工具 https://www.autohotkey.com/
 
+mac-like文件标签: taggedfrog_portable
+
 ---------------------
 ！杀毒软件：
 win7-MS-Essencial
