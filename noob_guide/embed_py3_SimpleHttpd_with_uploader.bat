@@ -3,15 +3,21 @@
 @echo off
 
 rem "normal batch code"
-echo [current working dir] is %cd%
-echo This script will start a http server under [current working dir] 
-echo You can access all files in [current_working_dir] 
+echo Python3 is required to run this script. Detecting ...
+where python
+echo. 
+echo [Current_Working_Directory] is [ %cd% ]
+echo This script will start a http file server under [CWD] 
+echo You can access all files in [CWD] using any web browser
 echo Listen address is 0.0.0.0:8000 by default, which should be:
-echo http://[this_computer_ip_address]:8000
-echo No PASSWD is require, Please Notice!
-echo Press CTRL+C to end this server
-
+echo ---- http://[this_computer_ip_address]:8000 ----
+echo. 
+echo No PASSWD is require, Please Notice! 
+echo DO NOT using this in public network, and CLOSE THIS if not using anymore
 echo.  
+echo Press CTRL+C or Alt+F4 (CLOSE_THIS_WINDOWS) to end this server
+echo.  
+
 rem "Switch to Python"
 python "%~f0"
 exit /b
@@ -19,6 +25,7 @@ rem ^
 rem ---------------- Python Code BEGIN ----------------
 '''
 #!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
  
 """Simple HTTP Server With Upload.
 
@@ -88,10 +95,10 @@ class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
         else:
             f.write(b"<strong>Failed:</strong>")
         f.write(info.encode())
-        f.write(("<br><a href=\"%s\">back</a>" % self.headers['referer']).encode())
-        f.write(b"<hr><small>Powerd By: bones7456, check new version at ")
-        f.write(b"<a href=\"http://li2z.cn/?s=SimpleHTTPServerWithUpload\">")
-        f.write(b"here</a>.</small></body>\n</html>\n")
+        f.write(("<br><a href=\"%s\"> <<< Go back</a>" % self.headers['referer']).encode())
+        f.write(b"<hr><small>Chinese file name encode is NOT supported yet.")
+        f.write(b"<a href=\"http://githubcom/?s=SimpleHTTPServerWithUpload\">")
+        f.write(b" Powerd By Python3 </a>.</small></body>\n</html>\n")
         length = f.tell()
         f.seek(0)
         self.send_response(200)
@@ -313,6 +320,7 @@ def test(HandlerClass = SimpleHTTPRequestHandler,
  
 if __name__ == '__main__':
     test()
+
 #rem #---------------- Python Code BEGIN ----------------
 #rem ###############################################################
 #rem # How to make "downloads" folder available in http server:
