@@ -3,20 +3,28 @@
 @echo off
 
 rem "normal batch code"
-echo Python3 is required to run this script. Detecting ...
-where python
-echo. 
-echo [Current_Working_Directory] is [ %cd% ]
 echo This script will start a http file server under [CWD] 
 echo You can access all files in [CWD] using any web browser
-echo Listen address is 0.0.0.0:8000 by default, which should be:
-echo ---- http://[this_computer_ip_address]:8000 ----
+echo.
+echo Python3 is required to run this script. Detecting ...
+where python
+echo.
+echo [This_Machines_IP_Address] is: 
+rem #ipconfig | findstr IPv
+ipconfig | findstr IPv4
+echo To test this server, visiting http://localhsot:8000 or http://127.0.0.1:8000
+echo.
+echo ---- Listen address is 0.0.0.0:8000 by default, which should be ----
+echo ---- http://[This_Machines_IP_Address]:8000 ----
+echo.  
+echo ---- [Current_Working_Directory] is [ %cd% ] -----
+echo.
+echo Notice:  No PassWord is required! 
+echo DO NOT use this server in public network!
+echo and CLOSE THIS ASAP if not using anymore!
 echo. 
-echo No PASSWD is require, Please Notice! 
-echo DO NOT using this in public network, and CLOSE THIS if not using anymore
-echo.  
-echo Press CTRL+C or Alt+F4 (CLOSE_THIS_WINDOWS) to end this server
-echo.  
+echo Press CTRL+C or ALT+F4 (CLOSE_THIS_WINDOWS) to END this server
+echo.
 
 rem "Switch to Python"
 python "%~f0"
@@ -339,3 +347,4 @@ if __name__ == '__main__':
 #rem # pause
 #rem # exit
 #rem ##############################################################
+#rem # batch script By Cleonh ##
