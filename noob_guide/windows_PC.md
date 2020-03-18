@@ -83,8 +83,13 @@ INTEL内置显卡驱动会被winUPDATE自动安装，可以ban独立显卡。首
 ！备份映像好后，开启系统还原点
 ！设置还原点后，开始装软件
 ```
-
-
+```
+win7 基本补丁
+ MSVC KB2999226 KB3118401
+ 根证书补丁 KB3004394-v2  Eage浏览器
+ dotNet支持版本？4.6
+ SP1大补丁 KB976932
+```
 
 - 常用Office系列
 
@@ -204,10 +209,9 @@ Win8/10内置
 --------------------
 
 
-
-*谷歌浏览器（推荐，但官网可能被屏蔽）  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
-(推荐)火狐浏览器 https://www.mozilla.org/en-US/firefox/all/
-firefox 安装包 https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN
+*(推荐MS改造Chrome内核) Eage浏览器 https://www.microsoft.com/en-us/edge
+谷歌浏览器(自带谷歌翻译CN可用)  https://www.google.cn/intl/zh-CN/chrome/browser/?standalone=1
+火狐浏览器 https://www.mozilla.org/en-US/firefox/all/
 firefox 便携版 https://portableapps.com/apps/internet/firefox_portable
 
 firefox浏览器插件  https://addons.mozilla.org/zh-CN/firefox/
