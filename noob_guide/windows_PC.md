@@ -189,6 +189,8 @@ PortableApps 绿色软件 https://portableapps.com/
 ------------------------------------------------------------------------------
 ```
 推荐/常用软件
+**Win10 AppStore** https://github.com/kkkgo/LTSC-Add-MicrosoftStore
+
 ```
 基本Win7界面(固定到任务栏)快捷键 Win+数字 
 同一个软件多进程启动  Shift+点击  Shift+win+数字
