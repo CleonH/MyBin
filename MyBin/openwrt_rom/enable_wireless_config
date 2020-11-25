@@ -1,0 +1,15 @@
+# files/etc/uci-default/enable-wireless[0,1]
+uci set wireless.@wifi-device[0].disabled="0"
+uci set wireless.@wifi-iface[0].disabled="0"
+uci set wireless.@wifi-iface[0].ssid="OpenWrt5G"
+#uci set wireless.@wifi-iface[0].key="changemeplox"
+#uci set wireless.@wifi-iface[0].encryption="psk2"
+uci set wireless.@wifi-device[1].disabled="0"
+uci set wireless.@wifi-iface[1].disabled="0"
+uci set wireless.@wifi-iface[1].ssid="OpenWrt2G"
+uci set wireless.radio1.channel='6'
+uci set wireless.radio1.country='CN'
+uci set wireless.radio1.legacy_rates='1'
+
+# commit 
+uci commit wireless
