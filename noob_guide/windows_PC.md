@@ -124,9 +124,14 @@ cscript ospp.vbs /sethst:127.0.0.2  （KMS服务器地址，不可用）
 
 - windows8/10 还原系统而不删除你的文件
 
-**出厂买来的系统一般自带此功能，** 
-**自己安装的系统按以下方法安装**
-** 无法重置：C盘空间；dism /restoreHealth ；dism删除winSxS多余驱动**
+- 出厂买来的系统一般自带此功能  
+- 自己安装的系统按以下方法安装 
+
+#### ** 无法重置时试试 **
+```
+C盘空间；dism /restoreHealth ；dism删除winSxS多余驱动 **
+Dism /Online /Cleanup-image /RestoreHealth /Sources:E:\win10ISO\sources\install.wim /LimitAccess
+```
 
 https://jingyan.baidu.com/article/64d05a0276f53fde55f73bcf.html
 
