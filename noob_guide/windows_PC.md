@@ -129,7 +129,9 @@ cscript ospp.vbs /sethst:127.0.0.2  （KMS服务器地址，不可用）
 
 #### ** 无法重置时试试 **
 ```
-C盘空间；dism /restoreHealth ；dism删除winSxS多余驱动 **
+C盘空间；dism /restoreHealth ；
+dism删除winSxS多余驱动 
+dism /Online /Cleanup-image /StartComponentCleanUp
 Dism /Online /Cleanup-image /RestoreHealth /Sources:E:\win10ISO\sources\install.wim /LimitAccess
 ```
 
