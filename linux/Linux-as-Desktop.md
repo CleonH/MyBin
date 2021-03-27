@@ -1,6 +1,7 @@
 ## essenticial 
 - tmux ncdu 
-- vbox vmware
+- dualboot / vbox vmware
+- Ntfs/ReFs
 ## prevent delete file
 - trash-cli
 - chattr
@@ -24,3 +25,5 @@ The operator '=' causes them to be the only attributes that the files have.
 - AddExtStorage :rsync duplicate
 - UseNAS : syncthing git-Sparkle
 - Using NetStorage? OneDtive?
+
+## Alfred/Appscript Alter
