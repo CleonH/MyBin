@@ -18,13 +18,16 @@ XBar
 - AppDelete
 - system library
 - user's library
-
+- SFTP/Rsync Client
+ 
 ## Perference
 - input (RIME,MS_doublePinyin) 
 - TouchPad (Sys-Accessibility-M&T-TrackPadOption-enableDragging)
 - Spotlight (exclude ~/Downloads ...etc)
 - Dictionary/Eudict (ExtraDicts/Sound)
-- Keyboard Mapping 
+- Keyboard Mapping
+- Go2Shell
+
 ## VMWare/Docker
 - vmware Fusion (NTFS)
 - Vbox/DockerTool
