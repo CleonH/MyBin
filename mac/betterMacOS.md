@@ -19,6 +19,7 @@ XBar
 - system library
 - user's library
 - SFTP/Rsync Client
+- iHash
  
 ## Perference
 - input (RIME,MS_doublePinyin) 
