@@ -1,9 +1,12 @@
 ## Hardware
 - intel-power-gadget/MacFanControl
 - TFCardExtraStorage (Data Recovery)
+- Sleep & Power & Owly
 
 ## MACOS Kernel
+- **Updates**
 - filesystem & DataRecovery (Data Recovery/Deduplication)
+- **NTFS?** TuxeraNTFS
 - TimeMachine (Syncthing/HDDisk/TFcard...etc)
 - DNS (nextdns/DoH/DoT...)
 - ProxyToggle
@@ -16,9 +19,14 @@ XBar
 - system library
 - user's library
 
+## Perference
+- input (RIME,MS_doublePinyin) 
+- TouchPad (Sys-Accessibility-M&T-TrackPadOption-enableDragging)
+- Spotlight (exclude ~/Downloads ...etc)
+- Dictionary/Eudict (ExtraDicts/Sound)
+- Keyboard Mapping 
 ## VMWare/Docker
--  **NTFS?**
-- vmware Fusion
+- vmware Fusion (NTFS)
 - Vbox/DockerTool
 - Docker
  
@@ -30,9 +38,9 @@ XBar
 
 ## MenuBar
 - Xbar https://github.com/matryer/xbar-plugins
-- Owly
 - Spectacle/Shifit
 - Alfred (emptyTrash->Empty.App,EnterConfirm)
+- MusicBar
 
 ## DevTool
 - SSH Tunnel 
@@ -41,12 +49,13 @@ XBar
 - JRE/JDK (Low Memory)
 - Hex Editor
 - VSCODE
+- subl (include in $PATH)
 
 ## Text/Document
 - Markdown(?autosave) typora
 - Tex
 - zetora
-- subl (include in $PATH)
+- libreOffice
  
 ## MATH
 - Spyder/Anaconda
@@ -57,7 +66,6 @@ XBar
 ## others
 ```
 GrandPerspective
-libreOffice
 VLC
 ffmpeg: HandBrak/Freac
 ImageConvertor/ImageOptim
