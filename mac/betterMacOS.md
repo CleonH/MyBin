@@ -3,17 +3,35 @@
 - TFCardExtraStorage (Data Recovery)
 - Sleep & Power & Owly
 
+
 ## MACOS Kernel
 - **Updates**
 - filesystem & DataRecovery (Data Recovery/Deduplication)
+- TimeMachine (NAS/HDDisk/TFcard...etc)
+### File System
 - **NTFS?** TuxeraNTFS
-- TimeMachine (Syncthing/HDDisk/TFcard...etc)
-- DNS (nextdns/DoH/DoT...)
-- ProxyToggle
+- HFS+/APFS
 ```
-XBar
-# networksetup -setwebproxy "Wi-Fi" 192.168.10.126 7777
+APPLE-FS-MACOS-TimeMachine
+https://www.v2ex.com/t/659647
+https://www.macworld.com/article/3600278/macos-big-sur-supports-time-machine-on-apfs-formatted-drives-but-there-are-a-few-catches.html
+
+macOS Big Sur supports Time Machine on APFS-formatted drives, but there are a few catches
+While APFS has advantages for SSD-based storage, there really aren’t any for hard disk drives, the most likely kind of drive used for large-capacity backup drives. I would set up any new Time Machine volume formatted with APFS, but not convert an old one from HFS+.
+
+Conlusion:
+MacOS(HighSierra,APFS) --> TM(HFS)
+MacOS(BigSur,APFS) --> TM(APFS)
+TimeMachine 固态移动硬盘更适合APFS； ??? NAS-TimeMachine ?? ZFS ?? Btrfs??
+
+系统卷(快照) 备份工具  ChronoSync/CCC ??? 快照更适合OS级别,软件测试
+工作文件夹云盘备份(Cryptomator+WebSync)
+工作文件夹本地备份(rsync\syncthing) Launchd(systemd)
+
+如果要删除所有本地快照的话：
+for d in $(tmutil listlocalsnapshotdates | grep "-"); do sudo tmutil deletelocalsnapshots $d; done
 ```
+
 ## AppStore
 - AppDelete
 - system library
@@ -22,6 +40,12 @@ XBar
 - iHash
  
 ## Perference
+- DNS (nextdns/DoH/DoT...)
+- ProxyToggle
+```
+XBar https://github.com/matryer/xbar-plugins
+# networksetup -setwebproxy "Wi-Fi" 192.168.10.126 7777
+```
 - input (RIME,MS_doublePinyin) 
 - TouchPad (Sys-Accessibility-M&T-TrackPadOption-enableDragging)
 - Spotlight (exclude ~/Downloads ...etc)
@@ -29,9 +53,15 @@ XBar
 - Keyboard Mapping
 - Go2Shell
 
+## Menu Utility
+- Xbar / MusicBar / Owly
+- NetSpeed,CPU etc
+- Spectacle/Shifit
+- Alfred (emptyTrash->Empty.App,EnterConfirm)
+
 ## VMWare/Docker
-- vmware Fusion (NTFS)
-- Vbox/DockerTool
+- Vmware Fusion (NTFS r/o)
+- Oracle Virtualbox / DockerTool
 - Docker
  
 ## Brew/MacPort/Fink
@@ -40,11 +70,7 @@ XBar
 - curl
 - git/miniconda/python3
 
-## MenuBar
-- Xbar https://github.com/matryer/xbar-plugins
-- Spectacle/Shifit
-- Alfred (emptyTrash->Empty.App,EnterConfirm)
-- MusicBar
+
 
 ## DevTool
 - SSH Tunnel 
@@ -56,7 +82,7 @@ XBar
 - subl (include in $PATH)
 
 ## Text/Document
-- Markdown(?autosave) typora
+- Markdown(?autosave) typora (Text Editor App Auto-Save Feature is enable by default in MacOS)
 - Tex
 - zetora
 - libreOffice
@@ -69,13 +95,14 @@ XBar
  
 ## others
 ```
+Cryptomator
 GrandPerspective
 VLC
 ffmpeg: HandBrak/Freac
 ImageConvertor/ImageOptim
 GIMP
 Firefox/Chrome/Edge
-ariaGui
+ariaGui/you-get/music-dl
 Trash_EMPTY.APP
 ```
 
