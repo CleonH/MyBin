@@ -34,8 +34,7 @@ for d in $(tmutil listlocalsnapshotdates | grep "-"); do sudo tmutil deletelocal
 
 ## AppStore
 - AppDelete
-- system library
-- user's library
+- system / users library clean
 - SFTP/Rsync Client
 - iHash
  
@@ -65,7 +64,7 @@ XBar https://github.com/matryer/xbar-plugins
 - Docker
  
 ## Brew/MacPort/Fink
-- tmux without brew
+- tmux without brew (gist: Install tmux on OSX WITHOUT brew)
 - ncdu
 - curl
 - git/miniconda/python3
@@ -73,7 +72,11 @@ XBar https://github.com/matryer/xbar-plugins
 
 
 ## DevTool
-- SSH Tunnel 
+- SSH Tunnel Port Forward
+```
+SSH-PROXY.APP  
+ssh -D 1025 -C -N -q -f user@server
+```
 - Marko(github style preview)
 - VSCODE
 - JRE/JDK (Low Memory)
@@ -95,7 +98,7 @@ XBar https://github.com/matryer/xbar-plugins
  
 ## others
 ```
-Cryptomator
+Cryptomator(DropBox/OneDrive/NutStore...差异化同步算法)
 GrandPerspective
 VLC
 ffmpeg: HandBrak/Freac
