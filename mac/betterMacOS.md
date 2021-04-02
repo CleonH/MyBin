@@ -43,7 +43,7 @@ for d in $(tmutil listlocalsnapshotdates | grep "-"); do sudo tmutil deletelocal
 - ProxyToggle
 ```
 XBar https://github.com/matryer/xbar-plugins
-# networksetup -setwebproxy "Wi-Fi" 192.168.10.126 7777
+# networksetup -setwebproxy "Wi-Fi" 192.168.10.110 7777
 ```
 - input (RIME,MS_doublePinyin) 
 - TouchPad (Sys-Accessibility-M&T-TrackPadOption-enableDragging)
