@@ -57,6 +57,7 @@ XBar https://github.com/matryer/xbar-plugins
 - NetSpeed,CPU etc
 - Spectacle/Shifit
 - Alfred (emptyTrash->Empty.App,EnterConfirm)
+- HammerSpoon http://www.hammerspoon.org/go/
 
 ## VMWare/Docker
 - Vmware Fusion (NTFS r/o)
