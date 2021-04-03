@@ -1,67 +1,81 @@
-## Hardware
-- intel-power-gadget/MacFanControl
-- TFCardExtraStorage (Data Recovery)
+## Hardware & Extention
+- intel-power-gadget
+- MacFanControl
+- HDMI/USBC Display (ARM m1 chip support ONLY ONE extra display)
+- Keyboard https://karabiner-elements.pqrs.org/
+```
+(CapsLock Again!) https://github.com/Vonng/Capslock/
+```
+## Data! Data! Data! (duplication & recovery)
+
+ - Alias rm & trash-cli
  ```
- working files real time backup[dedup!!] https://restic.readthedocs.io/en/stable/040_backup.html
- ?? APFS / BTRFS 
+ alias rm='echo "This is not the command you are looking for."; false'
+ mac-trash-cli https://github.com/gxvv/trash-cli (linux: https://github.com/andreafrancia/trash-cli)
  ```
-- Sleep & Power & Owly
+  - Carbon Copy Cloner  (/TimeMachine)
+ ```
+ bootable; full disk; OS full backup
+ ```
+ - APFS SnapShot / ExtraStorage  (/TimeMachine)
+ ```
+ ??? apfs_mount ?? $tmutil listlocalsnapshotdates ??
+ ```
+ ```
+ rsync 
+ restic [dedup!!] https://restic.readthedocs.io/en/stable/040_backup.html
+ ```
+ - NAS (/TimeMachine)
+ ```
+ syncthing
+ seafile..etc
+ ```
+- FreeWebStorage
+```
+iCloud/Dropbox/OneDrive...etc
+```
 
 ## MACOS Kernel
-- **Updates**
-- filesystem & DataRecovery (Data Recovery/Deduplication)
-- TimeMachine (NAS/HDDisk/TFcard...etc)
-- 
+- **Update, Lastest Security Upgrade**
 ### File System
 - **NTFS?** TuxeraNTFS
 - HFS+/APFS
 ```
-APPLE-FS-MACOS-TimeMachine
 https://www.v2ex.com/t/659647
 https://www.macworld.com/article/3600278/macos-big-sur-supports-time-machine-on-apfs-formatted-drives-but-there-are-a-few-catches.html
 
 macOS Big Sur supports Time Machine on APFS-formatted drives, but there are a few catches
 While APFS has advantages for SSD-based storage, there really aren’t any for hard disk drives, the most likely kind of drive used for large-capacity backup drives. I would set up any new Time Machine volume formatted with APFS, but not convert an old one from HFS+.
 
-Conlusion:
-MacOS(HighSierra,APFS) --> TM(HFS)
-MacOS(BigSur,APFS) --> TM(APFS)
-TimeMachine 固态移动硬盘更适合APFS； ??? NAS-TimeMachine ?? ZFS ?? Btrfs??
-
-系统卷(快照) 备份工具  ChronoSync/CCC ??? 快照更适合OS级别,软件测试
-工作文件夹云盘备份(Cryptomator+WebSync)
-工作文件夹本地备份(rsync\syncthing) Launchd(systemd)
-
-如果要删除所有本地快照的话：
-for d in $(tmutil listlocalsnapshotdates | grep "-"); do sudo tmutil deletelocalsnapshots $d; done
+MacOS(HighSierra,APFS) --> TimeMachine(HFS)
+MacOS(BigSur,APFS) --> TimeMachine(APFS)
 ```
 
-## AppStore
-- AppDelete
-- system / users library clean
-- SFTP/Rsync Client
-- iHash
+## clean
+- AppDelete https://support.apple.com/zh-cn/HT202235
+- system/users library clean
+
  
 ## Perference
 - DNS (nextdns/DoH/DoT...)
 - ProxyToggle
 ```
 XBar https://github.com/matryer/xbar-plugins
-# networksetup -setwebproxy "Wi-Fi" 192.168.10.110 7777
+# networksetup -setwebproxy "Wi-Fi" 192.168.1.110 7777
 ```
-- input (RIME,MS_doublePinyin) 
-- TouchPad (Sys-Accessibility-M&T-TrackPadOption-enableDragging)
+- PinyinInput (RIME,MS_doublePinyin) 
+- TouchPad Dragging (Sys-Accessibility-M&T-TrackPadOption-enableDragging)
 - Spotlight (exclude ~/Downloads ...etc)
 - Dictionary/Eudict (ExtraDicts/Sound)
 - Keyboard Mapping
 - Go2Shell
 
 ## Menu Utility
-- Xbar / MusicBar / Owly
+- MusicBar / Owly
 - NetSpeed,CPU etc
 - Spectacle/Shifit
-- Alfred (emptyTrash->Empty.App,EnterConfirm)
-- HammerSpoon http://www.hammerspoon.org/go/
+- Alfred (emptyTrash->Empty.App,EnterConfirm) / HammerSpoon
+- Xbar 
 
 ## VMWare/Docker
 - Vmware Fusion (NTFS r/o)
@@ -69,7 +83,7 @@ XBar https://github.com/matryer/xbar-plugins
 - Docker
  
 ## Brew/MacPort/Fink
-- tmux without brew (gist: Install tmux on OSX WITHOUT brew)
+- [screen] (tmux - gist: Install tmux on OSX WITHOUT brew)
 - ncdu
 - curl
 - git/miniconda/python3
