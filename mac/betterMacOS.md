@@ -1,13 +1,17 @@
 ## Hardware
 - intel-power-gadget/MacFanControl
 - TFCardExtraStorage (Data Recovery)
+ ```
+ working files real time backup[dedup!!] https://restic.readthedocs.io/en/stable/040_backup.html
+ ?? APFS / BTRFS 
+ ```
 - Sleep & Power & Owly
-
 
 ## MACOS Kernel
 - **Updates**
 - filesystem & DataRecovery (Data Recovery/Deduplication)
 - TimeMachine (NAS/HDDisk/TFcard...etc)
+- 
 ### File System
 - **NTFS?** TuxeraNTFS
 - HFS+/APFS
