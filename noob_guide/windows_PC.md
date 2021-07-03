@@ -324,11 +324,9 @@ autopoweroff
 ```
 
 
-- 存储服务器 smb / ftpd / filebrowser
+- 存储服务器 smb / ftpd
 ```
 win存储池/局域网文件共享
-小米路由器文件共享/远程读写
-群晖NAS文件服务器/远程读写
 FreeNAS/ZFS
 
 Everything - HTTP & FTP server(downlaod only)  
